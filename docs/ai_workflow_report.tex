@@ -1,0 +1,144 @@
+\documentclass[11pt]{article}
+\usepackage[a4paper,margin=1in]{geometry}
+\usepackage{graphicx}
+\usepackage{booktabs}
+\usepackage{hyperref}
+\usepackage{longtable}
+\usepackage{float}
+\usepackage{amsmath}
+\usepackage{enumitem}
+
+\title{Understanding the AI Development Workflow\\\large Hospital Readmission Case Study}
+\author{Team Placeholder}
+\date{\today}
+
+\begin{document}
+\maketitle
+
+\begin{abstract}
+This report demonstrates the AI Development Workflow for predicting 30-day patient readmissions. It covers problem framing, data strategy, model development, evaluation, deployment, monitoring, and ethical considerations while reflecting on challenges and future improvements.
+\end{abstract}
+
+\section{Problem Definition}
+\subsection{Hypothetical Scenario}
+\begin{itemize}[leftmargin=*]
+    \item \textbf{Use Case:} Predict student dropout risk in an online bootcamp.
+    \item \textbf{Objectives:} (1) Achieve AUROC $\geq 0.85$, (2) surface top risk factors, (3) prioritize interventions for high-risk cohorts.
+    \item \textbf{Stakeholders:} Program directors, student success coaches.
+    \item \textbf{KPI:} Area Under ROC Curve (AUROC) on holdout data.
+\end{itemize}
+
+\subsection{Case Study Scenario}
+\begin{itemize}[leftmargin=*]
+    \item \textbf{Problem:} Forecast 30-day hospital readmission risk.
+    \item \textbf{Objectives:} Reduce readmission penalties, enable proactive care, deliver explainable insights.
+    \item \textbf{Stakeholders:} Chief Medical Officer, clinicians, discharge planners, compliance officers, patients.
+\end{itemize}
+
+\section{Data Strategy}
+\subsection{Data Sources}
+\begin{enumerate}[leftmargin=*]
+    \item Electronic Health Records (EHRs) with diagnoses, vitals, and lab results.
+    \item Insurance claims capturing prior admissions and medication adherence.
+    \item Social determinants datasets (income, transportation).
+    \item Clinical notes (discharge summaries).
+\end{enumerate}
+
+\subsection{Ethical Considerations}
+\begin{itemize}[leftmargin=*]
+    \item Representation bias due to under-sampled populations.
+    \item Measurement bias from uneven data capture.
+    \item Mitigation via fairness audits, reweighting, community oversight.
+\end{itemize}
+
+\subsection{Preprocessing Pipeline}
+\begin{enumerate}[leftmargin=*]
+    \item Data cleaning and imputation (median for numerics, mode for categoricals).
+    \item Scaling numeric features; one-hot encoding categorical variables.
+    \item Feature engineering: comorbidity index, medication possession ratio, socio-economic scores.
+    \item Text featurization with TF-IDF or clinical language models.
+    \item SMOTE oversampling for class imbalance.
+\end{enumerate}
+
+\section{Model Development}
+\subsection{Model Choice}
+Gradient boosting (LightGBM) is selected for its strong performance on tabular data, ability to handle missing values, and compatibility with SHAP explanations. Logistic regression serves as a baseline; deep learning models are considered but deprioritized due to interpretability and compute constraints.
+
+\subsection{Data Splitting}
+Temporal split: 70\% train, 15\% validation, 15\% test to avoid leakage. Stratification ensures balanced class representation.
+
+\subsection{Hyperparameter Tuning}
+\begin{itemize}[leftmargin=*]
+    \item \texttt{num\_leaves} -- controls tree complexity.
+    \item \texttt{learning\_rate} -- balances convergence speed and overfitting.
+    \item \texttt{min\_child\_samples}, \texttt{subsample}, \texttt{colsample\_bytree} -- regularization and diversity.
+\end{itemize}
+
+\section{Evaluation}
+\subsection{Metrics}
+AUROC, Average Precision, F1, Precision, Recall, and calibration curves. Threshold-based confusion matrix to support clinical decision-making.
+
+\subsection{Hypothetical Confusion Matrix}
+\begin{center}
+\begin{tabular}{lcc}
+\toprule
+ & \textbf{Predicted Readmit} & \textbf{Predicted Not Readmit} \\
+\midrule
+\textbf{Actual Readmit} & 120 (TP) & 30 (FN) \\
+\textbf{Actual Not Readmit} & 50 (FP) & 300 (TN) \\
+\bottomrule
+\end{tabular}
+\end{center}
+Precision = 0.706, Recall = 0.800, F1 = 0.750, AUROC = 0.87.
+
+\subsection{Concept Drift}
+Concept drift arises when patient populations or clinical practices change over time. We monitor PSI monthly; trigger retraining if PSI $\geq 0.2$ or validation AUROC decreases by 0.02.
+
+\section{Deployment}
+\subsection{Integration Steps}
+\begin{enumerate}[leftmargin=*]
+    \item Containerize preprocessing and model service with FastAPI.
+    \item Deploy to hospital Kubernetes cluster; expose gRPC/REST endpoints.
+    \item Batch score daily discharges; push alerts via FHIR API to EHR dashboard.
+    \item Log predictions, SHAP explanations, and clinician feedback.
+\end{enumerate}
+
+\subsection{Regulatory Compliance}
+Apply HIPAA safeguards, maintain audit trails, conduct privacy impact assessments, and document model governance (versioning, change logs).
+
+\section{Optimization}
+Mitigate overfitting via early stopping, regularization (\texttt{reg\_alpha}, \texttt{reg\_lambda}), and nested cross-validation. Perform feature importance pruning and monitor learning curves.
+
+\section{Critical Thinking}
+\subsection{Ethics \& Bias}
+Biased training data can misclassify vulnerable patients, leading to inadequate care. Mitigation includes fairness constraints, stratified evaluation, and clinician review.
+
+\subsection{Trade-offs}
+Balancing interpretability and accuracy is crucial; tree-based models with SHAP explanations offer transparency with competitive performance. Limited compute resources favor gradient boosting over deep neural networks.
+
+\section{Reflection}
+Most challenging task: aligning privacy, compliance, and data access. With more time, we would build automated MLOps pipelines, expand SDOH coverage, and run clinician usability studies.
+
+\section{Workflow Diagram}
+The AI development workflow follows the CRISP-DM inspired loop:
+\begin{enumerate}[leftmargin=*]
+    \item Problem Definition
+    \item Data Collection \& Governance
+    \item Preprocessing \& Feature Engineering
+    \item Model Development
+    \item Evaluation \& Validation
+    \item Deployment \& Integration
+    \item Monitoring \& Maintenance with feedback into earlier stages
+\end{enumerate}
+
+\section{References}
+\begin{enumerate}[leftmargin=*]
+    \item CRISP-DM Consortium. ``CRISP-DM 1.0: Step-by-step data mining guide.'' 2000.
+    \item Ribeiro, M. et al. ``Why Should I Trust You?'' KDD 2016.
+    \item Rajkomar, A. et al. ``Machine Learning in Medicine.'' NEJM 2019.
+    \item U.S. Department of Health and Human Services. ``Summary of the HIPAA Privacy Rule.'' 2022.
+    \item Wiens, J. et al. ``Do no harm: a roadmap for responsible machine learning for health care.'' Nature Medicine, 2019.
+\end{enumerate}
+
+\end{document}
+

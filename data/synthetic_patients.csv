@@ -1,0 +1,501 @@
+patient_id,discharge_date,gender,insurance_type,discharge_disposition,primary_diagnosis,age,length_of_stay,prior_admissions,medication_possession_ratio,avg_vitals_score,comorbidity_index,socio_economic_score,readmitted,discharge_summary
+P00001,2025-02-08,Female,Private,Home,CHF,36.0,7,3,0.72,0.62,3,39.0,0,Stable discharge after treatment for CHF; routine follow-up scheduled.
+P00002,2025-02-21,Female,Medicare,Home,CHF,62.0,10,1,0.92,0.64,1,41.0,0,Stable discharge after treatment for CHF; routine follow-up scheduled.
+P00003,2025-01-29,Male,Medicare,Home,CHF,64.0,10,0,0.51,0.61,1,71.0,0,Stable discharge after treatment for CHF; routine follow-up scheduled.
+P00004,2025-01-15,Male,Private,Nursing Facility,CHF,75.0,6,1,0.59,0.78,3,29.0,0,Stable discharge after treatment for CHF; routine follow-up scheduled.
+P00005,2025-02-12,Male,Private,Home,COPD,72.0,10,1,0.89,0.51,4,57.0,0,Stable discharge after treatment for COPD; routine follow-up scheduled.
+P00006,2025-01-08,Male,Private,Home,Renal Failure,72.0,9,0,0.71,0.77,1,42.0,0,Stable discharge after treatment for Renal Failure; routine follow-up scheduled.
+P00007,2025-01-21,Male,Private,Home,Stroke,50.0,7,2,0.82,0.75,1,35.0,0,Stable discharge after treatment for Stroke; routine follow-up scheduled.
+P00008,2025-02-08,Female,Medicaid,Rehab,CHF,68.0,4,1,0.51,0.47,0,95.0,0,Stable discharge after treatment for CHF; routine follow-up scheduled.
+P00009,2025-02-27,Female,Medicare,Home,COPD,81.0,4,1,0.93,0.64,5,58.0,0,Stable discharge after treatment for COPD; routine follow-up scheduled.
+P00010,2025-01-19,Female,Medicare,Home,COPD,67.0,9,2,0.83,0.86,0,62.0,0,Stable discharge after treatment for COPD; routine follow-up scheduled.
+P00011,2025-01-23,Male,Medicare,Home,COPD,84.0,9,2,0.76,0.55,4,73.0,0,Stable discharge after treatment for COPD; routine follow-up scheduled.
+P00012,2025-01-11,Female,Uninsured,Home,Renal Failure,86.0,6,3,0.65,0.72,1,22.0,0,Stable discharge after treatment for Renal Failure; routine follow-up scheduled.
+P00013,2025-01-11,Female,Medicaid,Home,Stroke,59.0,1,4,0.63,0.6,6,85.0,0,Stable discharge after treatment for Stroke; routine follow-up scheduled.
+P00014,2025-01-24,Male,Medicaid,Home,Renal Failure,54.0,8,1,0.3,0.63,1,5.0,0,Stable discharge after treatment for Renal Failure; routine follow-up scheduled.
+P00015,2025-02-22,Female,Medicaid,Home,Diabetes,53.0,1,2,0.77,0.89,2,35.0,0,Stable discharge after treatment for Diabetes; routine follow-up scheduled.
+P00016,2025-02-05,Male,Uninsured,Home,Sepsis,44.0,11,0,0.71,0.71,4,41.0,0,Stable discharge after treatment for Sepsis; routine follow-up scheduled.
+P00017,2025-02-09,Female,Medicare,Home,COPD,56.0,7,2,0.34,0.75,6,62.0,0,Stable discharge after treatment for COPD; routine follow-up scheduled.
+P00018,2025-01-24,Female,Medicaid,Home,Diabetes,76.0,8,2,0.87,0.69,5,54.0,0,Stable discharge after treatment for Diabetes; routine follow-up scheduled.
+P00019,2025-01-03,Male,Medicaid,Home,Pneumonia,36.0,7,2,0.31,0.55,5,47.0,0,Stable discharge after treatment for Pneumonia; routine follow-up scheduled.
+P00020,2025-01-22,Female,Private,Home,CHF,50.0,4,2,0.73,0.58,6,50.0,0,Stable discharge after treatment for CHF; routine follow-up scheduled.
+P00021,2025-02-22,Female,Medicare,Rehab,Sepsis,60.0,4,0,0.6,0.82,5,30.0,0,Stable discharge after treatment for Sepsis; routine follow-up scheduled.
+P00022,2025-01-02,Male,Private,Home,CHF,51.0,6,3,0.44,0.72,6,20.0,0,Stable discharge after treatment for CHF; routine follow-up scheduled.
+P00023,2025-01-24,Male,Uninsured,Home,Renal Failure,56.0,6,2,0.92,0.62,4,65.0,0,Stable discharge after treatment for Renal Failure; routine follow-up scheduled.
+P00024,2025-02-13,Female,Medicaid,Home,Sepsis,56.0,4,2,0.95,0.7,6,64.0,0,Stable discharge after treatment for Sepsis; routine follow-up scheduled.
+P00025,2025-01-30,Male,Private,Home,Stroke,59.0,4,3,0.96,0.77,6,82.0,0,Stable discharge after treatment for Stroke; routine follow-up scheduled.
+P00026,2025-02-07,Female,Uninsured,Rehab,Diabetes,53.0,9,1,0.8,0.75,2,34.0,0,Stable discharge after treatment for Diabetes; routine follow-up scheduled.
+P00027,2025-01-02,Female,Private,Home,Stroke,52.0,6,0,0.48,0.62,2,64.0,0,Stable discharge after treatment for Stroke; routine follow-up scheduled.
+P00028,2025-03-01,Male,Medicare,Nursing Facility,Renal Failure,73.0,3,3,0.87,0.54,0,44.0,0,Stable discharge after treatment for Renal Failure; routine follow-up scheduled.
+P00029,2025-01-21,Male,Medicaid,Home,CHF,75.0,7,0,0.75,0.66,4,74.0,0,Stable discharge after treatment for CHF; routine follow-up scheduled.
+P00030,2025-02-02,Male,Private,Home,Sepsis,45.0,7,1,0.43,0.81,4,70.0,0,Stable discharge after treatment for Sepsis; routine follow-up scheduled.
+P00031,2025-01-12,Male,Medicaid,Rehab,Stroke,29.0,3,5,0.45,0.79,2,54.0,0,Stable discharge after treatment for Stroke; routine follow-up scheduled.
+P00032,2025-02-27,Male,Private,Rehab,Stroke,75.0,3,1,0.84,0.74,3,43.0,0,Stable discharge after treatment for Stroke; routine follow-up scheduled.
+P00033,2025-01-22,Female,Uninsured,Rehab,CHF,47.0,2,1,0.38,0.68,3,69.0,0,Stable discharge after treatment for CHF; routine follow-up scheduled.
+P00034,2025-02-13,Female,Uninsured,Rehab,Sepsis,65.0,6,5,0.87,0.65,0,63.0,0,Stable discharge after treatment for Sepsis; routine follow-up scheduled.
+P00035,2025-01-25,Male,Medicaid,Home,Diabetes,43.0,5,5,0.5,0.68,3,36.0,0,Stable discharge after treatment for Diabetes; routine follow-up scheduled.
+P00036,2025-02-18,Female,Medicare,Rehab,CHF,78.0,6,4,0.21,0.78,3,23.0,0,Stable discharge after treatment for CHF; routine follow-up scheduled.
+P00037,2025-01-27,Female,Uninsured,Home,Stroke,93.0,7,2,0.72,0.8,3,44.0,0,Stable discharge after treatment for Stroke; routine follow-up scheduled.
+P00038,2025-02-28,Female,Private,Rehab,Diabetes,64.0,11,0,0.64,0.67,1,80.0,0,Stable discharge after treatment for Diabetes; routine follow-up scheduled.
+P00039,2025-02-11,Female,Medicare,Home,Diabetes,61.0,7,1,0.54,0.95,0,73.0,0,Stable discharge after treatment for Diabetes; routine follow-up scheduled.
+P00040,2025-01-28,Male,Uninsured,Rehab,CHF,58.0,2,5,0.6,0.71,2,28.0,0,Stable discharge after treatment for CHF; routine follow-up scheduled.
+P00041,2025-03-01,Male,Private,Home,Stroke,71.0,7,3,0.84,0.67,3,27.0,0,Stable discharge after treatment for Stroke; routine follow-up scheduled.
+P00042,2025-01-16,Male,Medicaid,Home,Renal Failure,69.0,4,0,0.93,0.85,5,75.0,0,Stable discharge after treatment for Renal Failure; routine follow-up scheduled.
+P00043,2025-01-15,Female,Medicaid,Home,Stroke,74.0,11,1,0.78,0.5,6,27.0,0,Stable discharge after treatment for Stroke; routine follow-up scheduled.
+P00044,2025-02-16,Female,Medicaid,Rehab,COPD,54.0,7,1,0.64,0.75,1,60.0,0,Stable discharge after treatment for COPD; routine follow-up scheduled.
+P00045,2025-02-20,Female,Medicare,Home,Sepsis,66.0,4,2,0.87,0.69,3,38.0,0,Stable discharge after treatment for Sepsis; routine follow-up scheduled.
+P00046,2025-02-13,Female,Medicare,Home,Pneumonia,55.0,7,4,0.71,0.84,6,82.0,0,Stable discharge after treatment for Pneumonia; routine follow-up scheduled.
+P00047,2025-02-24,Male,Private,Home,Renal Failure,49.0,4,2,0.68,0.76,6,35.0,0,Stable discharge after treatment for Renal Failure; routine follow-up scheduled.
+P00048,2025-02-21,Male,Medicare,Home,Diabetes,62.0,9,1,0.74,0.71,1,73.0,0,Stable discharge after treatment for Diabetes; routine follow-up scheduled.
+P00049,2025-02-26,Male,Medicare,Rehab,Renal Failure,51.0,1,1,0.53,0.77,0,54.0,0,Stable discharge after treatment for Renal Failure; routine follow-up scheduled.
+P00050,2025-01-03,Female,Medicaid,Home,Sepsis,76.0,4,3,0.7,0.59,5,55.0,0,Stable discharge after treatment for Sepsis; routine follow-up scheduled.
+P00051,2025-02-06,Male,Medicaid,Nursing Facility,Diabetes,52.0,4,2,0.84,0.8,5,11.0,0,Stable discharge after treatment for Diabetes; routine follow-up scheduled.
+P00052,2025-02-20,Male,Uninsured,Home,Sepsis,66.0,6,3,0.37,0.57,5,6.0,0,Stable discharge after treatment for Sepsis; routine follow-up scheduled.
+P00053,2025-01-07,Male,Medicare,Home,Diabetes,55.0,9,2,0.58,0.74,3,46.0,0,Stable discharge after treatment for Diabetes; routine follow-up scheduled.
+P00054,2025-01-21,Male,Medicare,Rehab,Renal Failure,65.0,10,1,0.75,0.7,1,55.0,0,Stable discharge after treatment for Renal Failure; routine follow-up scheduled.
+P00055,2025-01-09,Female,Private,Home,Diabetes,56.0,4,0,0.31,0.52,5,27.0,0,Stable discharge after treatment for Diabetes; routine follow-up scheduled.
+P00056,2025-02-08,Female,Medicaid,Home,Diabetes,47.0,2,4,0.69,0.71,6,28.0,0,Stable discharge after treatment for Diabetes; routine follow-up scheduled.
+P00057,2025-01-18,Female,Medicare,Home,COPD,68.0,7,5,0.86,0.73,6,61.0,0,Stable discharge after treatment for COPD; routine follow-up scheduled.
+P00058,2025-01-04,Male,Medicaid,Rehab,Stroke,59.0,7,3,0.54,0.63,4,61.0,0,Stable discharge after treatment for Stroke; routine follow-up scheduled.
+P00059,2025-01-25,Female,Medicare,Home,Stroke,65.0,10,0,0.72,0.6,4,47.0,0,Stable discharge after treatment for Stroke; routine follow-up scheduled.
+P00060,2025-03-01,Female,Medicare,Nursing Facility,Pneumonia,57.0,9,1,0.55,0.75,1,66.0,0,Stable discharge after treatment for Pneumonia; routine follow-up scheduled.
+P00061,2025-01-14,Female,Medicaid,Nursing Facility,Pneumonia,46.0,7,4,0.85,0.74,3,27.0,0,Stable discharge after treatment for Pneumonia; routine follow-up scheduled.
+P00062,2025-02-19,Female,Medicaid,Home,COPD,75.0,3,3,0.51,0.72,3,43.0,0,Stable discharge after treatment for COPD; routine follow-up scheduled.
+P00063,2025-02-27,Male,Uninsured,Home,Pneumonia,71.0,11,2,0.48,0.7,0,83.0,0,Stable discharge after treatment for Pneumonia; routine follow-up scheduled.
+P00064,2025-01-09,Male,Medicaid,Home,Sepsis,55.0,7,2,0.71,0.64,0,51.0,0,Stable discharge after treatment for Sepsis; routine follow-up scheduled.
+P00065,2025-01-26,Female,Medicaid,Home,Renal Failure,63.0,6,2,0.63,0.93,5,53.0,0,Stable discharge after treatment for Renal Failure; routine follow-up scheduled.
+P00066,2025-02-22,Female,Private,Home,CHF,75.0,7,4,0.66,0.67,2,95.0,0,Stable discharge after treatment for CHF; routine follow-up scheduled.
+P00067,2025-01-02,Female,Medicare,Home,Sepsis,57.0,3,1,0.63,0.61,6,22.0,0,Stable discharge after treatment for Sepsis; routine follow-up scheduled.
+P00068,2025-01-20,Female,Private,Home,CHF,58.0,7,0,0.61,0.71,0,66.0,0,Stable discharge after treatment for CHF; routine follow-up scheduled.
+P00069,2025-01-28,Female,Medicare,Rehab,CHF,65.0,9,1,0.98,0.68,3,83.0,0,Stable discharge after treatment for CHF; routine follow-up scheduled.
+P00070,2025-02-16,Female,Uninsured,Rehab,COPD,56.0,5,5,0.46,0.67,6,44.0,0,Stable discharge after treatment for COPD; routine follow-up scheduled.
+P00071,2025-03-01,Female,Medicare,Rehab,Sepsis,72.0,9,4,0.81,0.89,2,67.0,0,Stable discharge after treatment for Sepsis; routine follow-up scheduled.
+P00072,2025-01-07,Male,Medicaid,Home,COPD,60.0,6,1,0.46,0.59,0,30.0,0,Stable discharge after treatment for COPD; routine follow-up scheduled.
+P00073,2025-02-13,Male,Medicare,Home,Diabetes,53.0,12,4,0.25,0.7,1,36.0,0,Stable discharge after treatment for Diabetes; routine follow-up scheduled.
+P00074,2025-01-08,Female,Uninsured,Home,CHF,69.0,13,5,0.65,0.59,4,58.0,0,Stable discharge after treatment for CHF; routine follow-up scheduled.
+P00075,2025-02-16,Female,Medicaid,Nursing Facility,Renal Failure,48.0,6,0,0.6,0.65,0,66.0,0,Stable discharge after treatment for Renal Failure; routine follow-up scheduled.
+P00076,2025-02-04,Male,Medicaid,Home,Pneumonia,86.0,3,1,0.67,0.87,0,72.0,0,Stable discharge after treatment for Pneumonia; routine follow-up scheduled.
+P00077,2025-01-14,Female,Medicare,Rehab,Renal Failure,81.0,2,2,0.35,0.73,1,81.0,0,Stable discharge after treatment for Renal Failure; routine follow-up scheduled.
+P00078,2025-01-17,Male,Private,Home,Pneumonia,68.0,9,1,0.61,0.73,3,49.0,0,Stable discharge after treatment for Pneumonia; routine follow-up scheduled.
+P00079,2025-02-05,Male,Medicare,Home,CHF,67.0,3,4,0.88,0.61,5,74.0,0,Stable discharge after treatment for CHF; routine follow-up scheduled.
+P00080,2025-02-19,Female,Private,Rehab,CHF,67.0,5,2,0.83,0.66,1,43.0,0,Stable discharge after treatment for CHF; routine follow-up scheduled.
+P00081,2025-02-09,Female,Medicare,Home,CHF,56.0,7,2,0.83,0.88,5,68.0,0,Stable discharge after treatment for CHF; routine follow-up scheduled.
+P00082,2025-01-04,Male,Medicare,Rehab,COPD,66.0,3,3,0.83,0.75,0,54.0,0,Stable discharge after treatment for COPD; routine follow-up scheduled.
+P00083,2025-01-02,Female,Medicare,Nursing Facility,Sepsis,51.0,5,1,0.94,0.67,3,59.0,0,Stable discharge after treatment for Sepsis; routine follow-up scheduled.
+P00084,2025-01-06,Male,Medicaid,Home,Pneumonia,68.0,6,1,0.87,0.74,2,58.0,0,Stable discharge after treatment for Pneumonia; routine follow-up scheduled.
+P00085,2025-02-23,Male,Medicaid,Home,Sepsis,72.0,8,0,0.89,0.73,0,18.0,0,Stable discharge after treatment for Sepsis; routine follow-up scheduled.
+P00086,2025-02-11,Male,Medicare,Home,COPD,57.0,10,4,0.79,0.62,1,28.0,0,Stable discharge after treatment for COPD; routine follow-up scheduled.
+P00087,2025-01-04,Female,Private,Nursing Facility,COPD,55.0,7,2,0.47,0.66,2,52.0,0,Stable discharge after treatment for COPD; routine follow-up scheduled.
+P00088,2025-02-23,Male,Medicaid,Home,Stroke,47.0,8,1,0.51,0.93,4,16.0,0,Stable discharge after treatment for Stroke; routine follow-up scheduled.
+P00089,2025-01-29,Female,Medicaid,Home,Renal Failure,79.0,9,2,0.92,0.74,2,67.0,0,Stable discharge after treatment for Renal Failure; routine follow-up scheduled.
+P00090,2025-01-18,Male,Medicaid,Home,Renal Failure,56.0,9,1,0.6,0.54,1,67.0,0,Stable discharge after treatment for Renal Failure; routine follow-up scheduled.
+P00091,2025-01-26,Male,Medicaid,Rehab,Diabetes,60.0,13,1,0.44,0.75,6,57.0,0,Stable discharge after treatment for Diabetes; routine follow-up scheduled.
+P00092,2025-02-13,Female,Medicaid,Home,COPD,66.0,8,0,0.5,0.83,2,28.0,0,Stable discharge after treatment for COPD; routine follow-up scheduled.
+P00093,2025-02-03,Male,Medicare,Rehab,Pneumonia,65.0,2,0,0.65,0.61,1,78.0,0,Stable discharge after treatment for Pneumonia; routine follow-up scheduled.
+P00094,2025-01-10,Male,Medicare,Nursing Facility,Stroke,71.0,4,2,0.77,0.65,6,91.0,0,Stable discharge after treatment for Stroke; routine follow-up scheduled.
+P00095,2025-02-05,Female,Private,Home,Stroke,57.0,3,2,0.83,0.85,0,53.0,0,Stable discharge after treatment for Stroke; routine follow-up scheduled.
+P00096,2025-01-14,Female,Uninsured,Home,Sepsis,48.0,6,7,0.7,0.7,6,60.0,0,Stable discharge after treatment for Sepsis; routine follow-up scheduled.
+P00097,2025-01-31,Female,Medicaid,Nursing Facility,Renal Failure,46.0,9,3,0.77,0.69,3,54.0,0,Stable discharge after treatment for Renal Failure; routine follow-up scheduled.
+P00098,2025-02-17,Female,Medicare,Home,COPD,55.0,11,3,0.54,0.57,4,61.0,0,Stable discharge after treatment for COPD; routine follow-up scheduled.
+P00099,2025-01-15,Female,Private,Rehab,Diabetes,51.0,7,5,0.64,0.81,6,48.0,0,Stable discharge after treatment for Diabetes; routine follow-up scheduled.
+P00100,2025-01-08,Male,Medicaid,Home,COPD,58.0,4,3,0.4,0.68,3,49.0,0,Stable discharge after treatment for COPD; routine follow-up scheduled.
+P00101,2025-01-14,Female,Medicare,Home,Sepsis,78.0,3,1,0.5,0.48,3,68.0,0,Stable discharge after treatment for Sepsis; routine follow-up scheduled.
+P00102,2025-01-23,Female,Medicare,Rehab,CHF,57.0,11,2,0.69,0.54,3,95.0,0,Stable discharge after treatment for CHF; routine follow-up scheduled.
+P00103,2025-03-01,Male,Private,Home,COPD,57.0,6,0,0.66,0.64,6,22.0,0,Stable discharge after treatment for COPD; routine follow-up scheduled.
+P00104,2025-02-26,Female,Private,Home,Sepsis,62.0,9,2,0.43,0.59,1,48.0,0,Stable discharge after treatment for Sepsis; routine follow-up scheduled.
+P00105,2025-02-09,Male,Medicare,Home,CHF,57.0,7,3,0.7,0.61,1,26.0,0,Stable discharge after treatment for CHF; routine follow-up scheduled.
+P00106,2025-01-21,Female,Medicare,Home,CHF,61.0,8,5,0.82,0.93,4,82.0,0,Stable discharge after treatment for CHF; routine follow-up scheduled.
+P00107,2025-01-16,Female,Medicare,Home,Diabetes,68.0,3,2,0.81,0.77,1,38.0,0,Stable discharge after treatment for Diabetes; routine follow-up scheduled.
+P00108,2025-02-14,Male,Private,Home,Pneumonia,73.0,5,1,0.84,0.44,5,21.0,1,Patient exhibits risk factors post-discharge for Pneumonia; close follow-up required.
+P00109,2025-01-18,Male,Medicare,Nursing Facility,Renal Failure,74.0,4,3,0.88,0.67,1,63.0,0,Stable discharge after treatment for Renal Failure; routine follow-up scheduled.
+P00110,2025-02-16,Male,Medicare,Home,COPD,87.0,8,0,0.76,0.69,1,85.0,0,Stable discharge after treatment for COPD; routine follow-up scheduled.
+P00111,2025-02-22,Male,Private,Home,CHF,69.0,6,3,0.81,0.55,1,63.0,0,Stable discharge after treatment for CHF; routine follow-up scheduled.
+P00112,2025-01-24,Male,Medicare,Home,COPD,89.0,4,3,0.57,0.75,0,54.0,0,Stable discharge after treatment for COPD; routine follow-up scheduled.
+P00113,2025-01-26,Female,Private,Rehab,Pneumonia,53.0,7,5,0.64,0.5,4,58.0,0,Stable discharge after treatment for Pneumonia; routine follow-up scheduled.
+P00114,2025-01-25,Female,Medicare,Home,Renal Failure,87.0,6,2,0.69,0.81,5,78.0,0,Stable discharge after treatment for Renal Failure; routine follow-up scheduled.
+P00115,2025-03-01,Male,Medicare,Nursing Facility,Pneumonia,57.0,4,0,0.82,0.84,1,33.0,0,Stable discharge after treatment for Pneumonia; routine follow-up scheduled.
+P00116,2025-03-01,Male,Medicare,Home,Renal Failure,59.0,8,1,0.95,0.94,4,48.0,0,Stable discharge after treatment for Renal Failure; routine follow-up scheduled.
+P00117,2025-03-01,Male,Private,Home,Stroke,61.0,14,3,0.53,0.54,2,41.0,0,Stable discharge after treatment for Stroke; routine follow-up scheduled.
+P00118,2025-02-14,Female,Private,Home,Renal Failure,59.0,7,4,0.93,0.56,0,27.0,0,Stable discharge after treatment for Renal Failure; routine follow-up scheduled.
+P00119,2025-02-10,Female,Private,Home,Diabetes,63.0,10,4,0.32,0.77,6,43.0,0,Stable discharge after treatment for Diabetes; routine follow-up scheduled.
+P00120,2025-01-29,Male,Medicaid,Home,Pneumonia,55.0,4,3,0.86,0.82,1,72.0,0,Stable discharge after treatment for Pneumonia; routine follow-up scheduled.
+P00121,2025-01-15,Female,Private,Home,CHF,72.0,6,1,0.75,0.78,5,61.0,0,Stable discharge after treatment for CHF; routine follow-up scheduled.
+P00122,2025-02-14,Male,Medicare,Rehab,Stroke,55.0,4,0,0.69,0.81,0,63.0,0,Stable discharge after treatment for Stroke; routine follow-up scheduled.
+P00123,2025-01-01,Male,Medicare,Home,Diabetes,70.0,6,2,0.5,0.84,5,53.0,0,Stable discharge after treatment for Diabetes; routine follow-up scheduled.
+P00124,2025-01-25,Female,Private,Home,COPD,80.0,12,3,0.44,0.72,6,60.0,0,Stable discharge after treatment for COPD; routine follow-up scheduled.
+P00125,2025-01-07,Male,Medicare,Home,Pneumonia,58.0,7,2,0.91,0.68,6,34.0,0,Stable discharge after treatment for Pneumonia; routine follow-up scheduled.
+P00126,2025-01-09,Male,Medicare,Rehab,Sepsis,72.0,10,1,0.89,0.56,0,44.0,0,Stable discharge after treatment for Sepsis; routine follow-up scheduled.
+P00127,2025-01-24,Female,Medicare,Home,Sepsis,69.0,5,3,0.6,0.67,2,54.0,0,Stable discharge after treatment for Sepsis; routine follow-up scheduled.
+P00128,2025-01-01,Male,Medicare,Home,CHF,89.0,9,1,0.71,0.69,4,56.0,0,Stable discharge after treatment for CHF; routine follow-up scheduled.
+P00129,2025-02-13,Female,Medicare,Home,Renal Failure,56.0,4,3,0.54,0.61,0,56.0,0,Stable discharge after treatment for Renal Failure; routine follow-up scheduled.
+P00130,2025-01-08,Male,Medicaid,Rehab,CHF,72.0,5,3,0.59,0.7,3,47.0,0,Stable discharge after treatment for CHF; routine follow-up scheduled.
+P00131,2025-01-24,Female,Medicaid,Home,Sepsis,42.0,8,4,0.44,0.59,6,42.0,0,Stable discharge after treatment for Sepsis; routine follow-up scheduled.
+P00132,2025-01-11,Male,Private,Home,COPD,56.0,6,2,0.16,0.81,2,95.0,0,Stable discharge after treatment for COPD; routine follow-up scheduled.
+P00133,2025-02-20,Female,Private,Rehab,Stroke,66.0,8,1,0.55,0.74,6,68.0,0,Stable discharge after treatment for Stroke; routine follow-up scheduled.
+P00134,2025-01-17,Female,Medicare,Rehab,Stroke,79.0,6,3,0.56,0.65,3,58.0,0,Stable discharge after treatment for Stroke; routine follow-up scheduled.
+P00135,2025-01-08,Male,Medicare,Home,Pneumonia,47.0,1,1,0.81,0.72,2,45.0,0,Stable discharge after treatment for Pneumonia; routine follow-up scheduled.
+P00136,2025-02-04,Female,Medicaid,Rehab,Stroke,71.0,5,5,0.89,0.59,6,41.0,0,Stable discharge after treatment for Stroke; routine follow-up scheduled.
+P00137,2025-02-04,Female,Medicaid,Home,Pneumonia,61.0,10,2,0.86,0.6,3,47.0,0,Stable discharge after treatment for Pneumonia; routine follow-up scheduled.
+P00138,2025-02-02,Male,Medicare,Home,Pneumonia,44.0,7,3,0.62,0.64,3,56.0,0,Stable discharge after treatment for Pneumonia; routine follow-up scheduled.
+P00139,2025-02-28,Male,Private,Home,Pneumonia,64.0,6,0,0.55,0.68,6,12.0,0,Stable discharge after treatment for Pneumonia; routine follow-up scheduled.
+P00140,2025-01-05,Male,Medicaid,Home,Sepsis,83.0,4,1,0.69,0.71,6,19.0,0,Stable discharge after treatment for Sepsis; routine follow-up scheduled.
+P00141,2025-02-11,Male,Medicaid,Home,Sepsis,49.0,2,4,0.83,0.71,5,37.0,0,Stable discharge after treatment for Sepsis; routine follow-up scheduled.
+P00142,2025-02-08,Female,Medicaid,Nursing Facility,Renal Failure,61.0,7,1,0.75,0.57,0,54.0,0,Stable discharge after treatment for Renal Failure; routine follow-up scheduled.
+P00143,2025-02-27,Female,Medicare,Home,Diabetes,50.0,3,5,0.65,0.69,0,45.0,0,Stable discharge after treatment for Diabetes; routine follow-up scheduled.
+P00144,2025-02-10,Female,Uninsured,Home,Pneumonia,56.0,8,0,0.88,0.62,2,80.0,0,Stable discharge after treatment for Pneumonia; routine follow-up scheduled.
+P00145,2025-01-28,Male,Private,Home,Pneumonia,79.0,7,2,0.54,0.36,4,20.0,0,Stable discharge after treatment for Pneumonia; routine follow-up scheduled.
+P00146,2025-01-07,Male,Medicare,Nursing Facility,Diabetes,59.0,4,4,0.86,0.95,6,35.0,0,Stable discharge after treatment for Diabetes; routine follow-up scheduled.
+P00147,2025-01-09,Male,Private,Home,CHF,79.0,8,2,0.28,0.62,5,80.0,0,Stable discharge after treatment for CHF; routine follow-up scheduled.
+P00148,2025-01-08,Male,Medicaid,Home,Pneumonia,75.0,5,2,0.19,0.63,0,53.0,0,Stable discharge after treatment for Pneumonia; routine follow-up scheduled.
+P00149,2025-01-12,Female,Private,Home,Renal Failure,58.0,6,2,0.67,0.57,0,68.0,0,Stable discharge after treatment for Renal Failure; routine follow-up scheduled.
+P00150,2025-02-03,Female,Private,Home,Stroke,56.0,4,1,0.8,0.59,5,91.0,0,Stable discharge after treatment for Stroke; routine follow-up scheduled.
+P00151,2025-02-02,Female,Medicaid,Nursing Facility,Stroke,51.0,6,2,0.91,0.68,1,36.0,0,Stable discharge after treatment for Stroke; routine follow-up scheduled.
+P00152,2025-02-17,Male,Medicare,Nursing Facility,COPD,51.0,8,1,0.43,0.84,5,48.0,1,Patient exhibits risk factors post-discharge for COPD; close follow-up required.
+P00153,2025-02-24,Female,Medicare,Home,COPD,66.0,6,2,0.59,0.68,0,45.0,0,Stable discharge after treatment for COPD; routine follow-up scheduled.
+P00154,2025-01-23,Male,Medicaid,Nursing Facility,Stroke,62.0,9,2,0.71,0.67,4,11.0,0,Stable discharge after treatment for Stroke; routine follow-up scheduled.
+P00155,2025-01-24,Female,Private,Home,Stroke,55.0,4,0,0.55,0.82,1,44.0,0,Stable discharge after treatment for Stroke; routine follow-up scheduled.
+P00156,2025-02-06,Female,Medicare,Rehab,Sepsis,43.0,4,3,0.88,0.65,3,68.0,1,Patient exhibits risk factors post-discharge for Sepsis; close follow-up required.
+P00157,2025-02-04,Female,Medicare,Home,Renal Failure,63.0,5,2,0.71,0.7,5,61.0,0,Stable discharge after treatment for Renal Failure; routine follow-up scheduled.
+P00158,2025-02-13,Male,Private,Home,Diabetes,56.0,4,0,0.45,0.61,3,62.0,0,Stable discharge after treatment for Diabetes; routine follow-up scheduled.
+P00159,2025-02-09,Male,Uninsured,Home,COPD,60.0,6,3,0.93,0.87,1,42.0,0,Stable discharge after treatment for COPD; routine follow-up scheduled.
+P00160,2025-01-22,Female,Medicaid,Home,Sepsis,66.0,6,2,0.9,0.8,1,37.0,0,Stable discharge after treatment for Sepsis; routine follow-up scheduled.
+P00161,2025-01-27,Female,Medicare,Home,Sepsis,32.0,9,4,0.39,0.68,1,75.0,0,Stable discharge after treatment for Sepsis; routine follow-up scheduled.
+P00162,2025-02-04,Male,Medicare,Home,Diabetes,44.0,5,0,0.76,0.66,2,40.0,0,Stable discharge after treatment for Diabetes; routine follow-up scheduled.
+P00163,2025-01-01,Female,Medicare,Home,Sepsis,90.0,8,3,0.69,0.7,5,56.0,0,Stable discharge after treatment for Sepsis; routine follow-up scheduled.
+P00164,2025-02-04,Male,Uninsured,Rehab,Renal Failure,56.0,4,2,0.79,0.69,6,53.0,0,Stable discharge after treatment for Renal Failure; routine follow-up scheduled.
+P00165,2025-02-06,Male,Medicare,Home,Stroke,32.0,10,2,0.68,0.55,4,79.0,0,Stable discharge after treatment for Stroke; routine follow-up scheduled.
+P00166,2025-02-16,Female,Medicaid,Home,Pneumonia,45.0,3,3,0.94,0.81,4,69.0,0,Stable discharge after treatment for Pneumonia; routine follow-up scheduled.
+P00167,2025-01-14,Female,Medicare,Nursing Facility,Diabetes,92.0,6,2,0.61,0.68,3,24.0,0,Stable discharge after treatment for Diabetes; routine follow-up scheduled.
+P00168,2025-01-03,Male,Medicaid,Home,Stroke,54.0,3,2,0.83,0.89,3,26.0,0,Stable discharge after treatment for Stroke; routine follow-up scheduled.
+P00169,2025-01-01,Female,Private,Home,Stroke,76.0,9,1,0.59,0.74,6,62.0,0,Stable discharge after treatment for Stroke; routine follow-up scheduled.
+P00170,2025-01-05,Female,Private,Home,CHF,63.0,4,0,0.69,0.45,3,49.0,0,Stable discharge after treatment for CHF; routine follow-up scheduled.
+P00171,2025-01-26,Male,Medicare,Rehab,Diabetes,56.0,4,1,0.8,0.57,5,41.0,0,Stable discharge after treatment for Diabetes; routine follow-up scheduled.
+P00172,2025-02-24,Male,Medicare,Home,Sepsis,71.0,3,3,0.73,0.49,0,70.0,0,Stable discharge after treatment for Sepsis; routine follow-up scheduled.
+P00173,2025-01-14,Male,Medicare,Home,Pneumonia,33.0,2,1,0.69,0.57,3,54.0,0,Stable discharge after treatment for Pneumonia; routine follow-up scheduled.
+P00174,2025-02-08,Male,Uninsured,Rehab,Diabetes,45.0,9,2,0.51,0.54,1,51.0,0,Stable discharge after treatment for Diabetes; routine follow-up scheduled.
+P00175,2025-01-27,Female,Private,Nursing Facility,Sepsis,56.0,7,0,0.84,0.73,3,66.0,0,Stable discharge after treatment for Sepsis; routine follow-up scheduled.
+P00176,2025-01-09,Female,Medicaid,Home,Stroke,46.0,5,0,0.64,0.67,1,42.0,0,Stable discharge after treatment for Stroke; routine follow-up scheduled.
+P00177,2025-01-15,Male,Private,Home,Pneumonia,55.0,6,1,0.53,0.77,2,81.0,0,Stable discharge after treatment for Pneumonia; routine follow-up scheduled.
+P00178,2025-01-15,Male,Private,Home,Sepsis,72.0,6,1,0.22,0.7,0,34.0,0,Stable discharge after treatment for Sepsis; routine follow-up scheduled.
+P00179,2025-01-26,Female,Medicare,Rehab,Renal Failure,64.0,3,4,0.8,0.68,0,63.0,0,Stable discharge after treatment for Renal Failure; routine follow-up scheduled.
+P00180,2025-02-11,Male,Uninsured,Home,Sepsis,78.0,2,2,0.71,0.9,6,79.0,0,Stable discharge after treatment for Sepsis; routine follow-up scheduled.
+P00181,2025-03-01,Female,Medicaid,Home,CHF,64.0,4,3,0.59,0.72,5,22.0,0,Stable discharge after treatment for CHF; routine follow-up scheduled.
+P00182,2025-01-13,Female,Medicaid,Nursing Facility,Stroke,74.0,11,0,0.55,0.69,5,43.0,0,Stable discharge after treatment for Stroke; routine follow-up scheduled.
+P00183,2025-02-20,Female,Medicaid,Home,Sepsis,61.0,3,1,0.67,0.61,4,73.0,0,Stable discharge after treatment for Sepsis; routine follow-up scheduled.
+P00184,2025-02-01,Female,Medicare,Home,COPD,55.0,6,2,0.61,0.58,2,73.0,0,Stable discharge after treatment for COPD; routine follow-up scheduled.
+P00185,2025-02-08,Female,Medicare,Home,COPD,80.0,6,2,0.66,0.78,6,47.0,0,Stable discharge after treatment for COPD; routine follow-up scheduled.
+P00186,2025-02-18,Female,Private,Home,CHF,53.0,6,6,0.91,0.77,5,35.0,0,Stable discharge after treatment for CHF; routine follow-up scheduled.
+P00187,2025-02-21,Female,Medicare,Home,Renal Failure,66.0,1,3,0.69,0.86,1,69.0,0,Stable discharge after treatment for Renal Failure; routine follow-up scheduled.
+P00188,2025-02-01,Male,Private,Home,Stroke,71.0,2,2,0.41,0.75,2,74.0,0,Stable discharge after treatment for Stroke; routine follow-up scheduled.
+P00189,2025-01-04,Male,Medicare,Home,Diabetes,72.0,7,2,0.55,0.66,0,27.0,0,Stable discharge after treatment for Diabetes; routine follow-up scheduled.
+P00190,2025-01-30,Male,Medicaid,Home,CHF,48.0,4,2,0.93,0.75,1,26.0,0,Stable discharge after treatment for CHF; routine follow-up scheduled.
+P00191,2025-02-06,Male,Medicare,Nursing Facility,Renal Failure,75.0,3,2,0.79,0.69,6,55.0,0,Stable discharge after treatment for Renal Failure; routine follow-up scheduled.
+P00192,2025-01-23,Female,Medicaid,Home,Diabetes,50.0,13,4,0.59,0.79,6,63.0,0,Stable discharge after treatment for Diabetes; routine follow-up scheduled.
+P00193,2025-02-08,Female,Private,Nursing Facility,COPD,72.0,4,1,0.33,0.83,2,44.0,0,Stable discharge after treatment for COPD; routine follow-up scheduled.
+P00194,2025-02-14,Male,Medicare,Home,COPD,68.0,13,2,0.69,0.68,0,64.0,0,Stable discharge after treatment for COPD; routine follow-up scheduled.
+P00195,2025-01-15,Female,Medicaid,Rehab,Diabetes,72.0,4,2,0.77,0.88,5,36.0,0,Stable discharge after treatment for Diabetes; routine follow-up scheduled.
+P00196,2025-02-12,Male,Medicaid,Rehab,CHF,48.0,5,0,0.83,0.82,1,8.0,0,Stable discharge after treatment for CHF; routine follow-up scheduled.
+P00197,2025-01-29,Female,Private,Home,COPD,69.0,8,2,0.88,0.7,1,42.0,0,Stable discharge after treatment for COPD; routine follow-up scheduled.
+P00198,2025-02-05,Male,Uninsured,Rehab,Stroke,75.0,3,3,0.82,0.77,0,51.0,0,Stable discharge after treatment for Stroke; routine follow-up scheduled.
+P00199,2025-01-13,Female,Private,Rehab,Pneumonia,64.0,7,5,0.75,0.73,1,44.0,0,Stable discharge after treatment for Pneumonia; routine follow-up scheduled.
+P00200,2025-02-01,Male,Medicare,Home,Sepsis,52.0,7,1,0.44,0.7,5,27.0,0,Stable discharge after treatment for Sepsis; routine follow-up scheduled.
+P00201,2025-01-07,Male,Medicare,Home,Diabetes,73.0,4,0,0.54,0.89,5,14.0,0,Stable discharge after treatment for Diabetes; routine follow-up scheduled.
+P00202,2025-02-28,Male,Medicare,Home,Diabetes,63.0,5,2,0.66,0.75,5,40.0,1,Patient exhibits risk factors post-discharge for Diabetes; close follow-up required.
+P00203,2025-02-20,Female,Medicaid,Rehab,COPD,42.0,8,2,0.45,0.62,0,68.0,0,Stable discharge after treatment for COPD; routine follow-up scheduled.
+P00204,2025-01-22,Male,Medicare,Rehab,CHF,51.0,8,0,0.69,0.6,3,75.0,0,Stable discharge after treatment for CHF; routine follow-up scheduled.
+P00205,2025-01-28,Male,Medicaid,Rehab,Stroke,56.0,6,2,0.91,0.6,3,74.0,0,Stable discharge after treatment for Stroke; routine follow-up scheduled.
+P00206,2025-01-02,Male,Medicaid,Home,CHF,80.0,7,6,0.42,0.75,6,34.0,0,Stable discharge after treatment for CHF; routine follow-up scheduled.
+P00207,2025-02-11,Male,Medicare,Rehab,Renal Failure,78.0,4,0,0.93,0.67,6,27.0,0,Stable discharge after treatment for Renal Failure; routine follow-up scheduled.
+P00208,2025-02-14,Male,Private,Home,Renal Failure,78.0,6,0,0.55,0.73,1,60.0,0,Stable discharge after treatment for Renal Failure; routine follow-up scheduled.
+P00209,2025-02-26,Female,Medicare,Home,Pneumonia,65.0,13,3,0.52,0.79,5,63.0,0,Stable discharge after treatment for Pneumonia; routine follow-up scheduled.
+P00210,2025-02-22,Male,Medicare,Home,COPD,73.0,10,7,0.88,0.9,1,58.0,0,Stable discharge after treatment for COPD; routine follow-up scheduled.
+P00211,2025-01-06,Male,Private,Home,COPD,48.0,4,1,0.91,0.67,0,10.0,0,Stable discharge after treatment for COPD; routine follow-up scheduled.
+P00212,2025-01-28,Male,Medicaid,Home,COPD,62.0,5,1,0.88,0.56,1,33.0,0,Stable discharge after treatment for COPD; routine follow-up scheduled.
+P00213,2025-01-28,Female,Private,Home,Pneumonia,67.0,1,3,0.8,0.88,4,49.0,0,Stable discharge after treatment for Pneumonia; routine follow-up scheduled.
+P00214,2025-02-13,Female,Medicaid,Home,Renal Failure,49.0,7,2,0.5,0.55,3,60.0,0,Stable discharge after treatment for Renal Failure; routine follow-up scheduled.
+P00215,2025-02-13,Male,Medicare,Home,CHF,65.0,4,1,0.33,0.55,1,65.0,0,Stable discharge after treatment for CHF; routine follow-up scheduled.
+P00216,2025-01-20,Male,Private,Home,Pneumonia,82.0,4,2,0.95,0.88,1,53.0,0,Stable discharge after treatment for Pneumonia; routine follow-up scheduled.
+P00217,2025-01-30,Female,Private,Home,Pneumonia,69.0,4,4,0.57,0.81,2,57.0,0,Stable discharge after treatment for Pneumonia; routine follow-up scheduled.
+P00218,2025-01-11,Male,Private,Home,CHF,73.0,3,2,0.6,0.75,1,52.0,0,Stable discharge after treatment for CHF; routine follow-up scheduled.
+P00219,2025-02-27,Female,Medicare,Home,COPD,33.0,7,3,0.83,0.7,4,64.0,0,Stable discharge after treatment for COPD; routine follow-up scheduled.
+P00220,2025-02-24,Female,Medicaid,Home,Stroke,81.0,6,2,0.65,0.68,3,56.0,0,Stable discharge after treatment for Stroke; routine follow-up scheduled.
+P00221,2025-01-28,Female,Medicaid,Home,CHF,60.0,7,4,0.56,0.63,2,51.0,0,Stable discharge after treatment for CHF; routine follow-up scheduled.
+P00222,2025-01-25,Female,Medicare,Home,Renal Failure,53.0,8,3,0.29,0.67,0,45.0,0,Stable discharge after treatment for Renal Failure; routine follow-up scheduled.
+P00223,2025-02-08,Male,Uninsured,Home,Diabetes,60.0,6,2,0.73,0.7,6,52.0,0,Stable discharge after treatment for Diabetes; routine follow-up scheduled.
+P00224,2025-02-02,Female,Medicare,Home,Diabetes,44.0,4,1,0.58,0.56,0,60.0,0,Stable discharge after treatment for Diabetes; routine follow-up scheduled.
+P00225,2025-01-01,Male,Uninsured,Home,Sepsis,75.0,3,1,0.77,0.62,3,55.0,0,Stable discharge after treatment for Sepsis; routine follow-up scheduled.
+P00226,2025-02-26,Male,Medicaid,Rehab,Sepsis,58.0,7,2,0.75,0.49,6,58.0,0,Stable discharge after treatment for Sepsis; routine follow-up scheduled.
+P00227,2025-01-27,Male,Medicare,Home,Pneumonia,53.0,5,2,0.65,0.71,0,77.0,0,Stable discharge after treatment for Pneumonia; routine follow-up scheduled.
+P00228,2025-02-26,Male,Medicaid,Home,Diabetes,60.0,4,2,0.67,0.71,4,55.0,0,Stable discharge after treatment for Diabetes; routine follow-up scheduled.
+P00229,2025-02-21,Female,Private,Home,Stroke,75.0,5,0,0.89,0.88,1,37.0,0,Stable discharge after treatment for Stroke; routine follow-up scheduled.
+P00230,2025-01-13,Male,Private,Home,COPD,64.0,4,0,0.73,0.74,3,68.0,0,Stable discharge after treatment for COPD; routine follow-up scheduled.
+P00231,2025-02-10,Male,Private,Home,Renal Failure,45.0,8,2,0.57,0.64,6,23.0,0,Stable discharge after treatment for Renal Failure; routine follow-up scheduled.
+P00232,2025-01-03,Female,Private,Home,Sepsis,68.0,2,1,0.76,0.68,2,28.0,0,Stable discharge after treatment for Sepsis; routine follow-up scheduled.
+P00233,2025-02-08,Male,Private,Home,Stroke,51.0,4,4,0.78,0.75,1,57.0,0,Stable discharge after treatment for Stroke; routine follow-up scheduled.
+P00234,2025-01-06,Male,Private,Home,Renal Failure,36.0,8,3,0.75,0.72,0,60.0,0,Stable discharge after treatment for Renal Failure; routine follow-up scheduled.
+P00235,2025-01-08,Male,Medicare,Home,Renal Failure,80.0,9,0,0.45,0.76,0,25.0,0,Stable discharge after treatment for Renal Failure; routine follow-up scheduled.
+P00236,2025-01-27,Male,Medicaid,Rehab,COPD,67.0,4,4,0.65,0.74,2,42.0,0,Stable discharge after treatment for COPD; routine follow-up scheduled.
+P00237,2025-01-09,Male,Medicare,Rehab,Pneumonia,61.0,3,3,0.78,0.67,4,38.0,0,Stable discharge after treatment for Pneumonia; routine follow-up scheduled.
+P00238,2025-02-06,Female,Uninsured,Rehab,Diabetes,58.0,5,2,0.28,0.65,2,40.0,1,Patient exhibits risk factors post-discharge for Diabetes; close follow-up required.
+P00239,2025-02-02,Male,Uninsured,Nursing Facility,COPD,79.0,5,1,0.09,0.64,3,69.0,0,Stable discharge after treatment for COPD; routine follow-up scheduled.
+P00240,2025-02-20,Male,Medicare,Home,Stroke,95.0,4,0,0.37,0.61,2,64.0,0,Stable discharge after treatment for Stroke; routine follow-up scheduled.
+P00241,2025-02-11,Female,Private,Home,Pneumonia,67.0,8,4,0.41,0.59,0,50.0,0,Stable discharge after treatment for Pneumonia; routine follow-up scheduled.
+P00242,2025-02-13,Female,Uninsured,Home,Stroke,50.0,7,1,0.86,0.88,4,39.0,0,Stable discharge after treatment for Stroke; routine follow-up scheduled.
+P00243,2025-01-24,Female,Medicare,Home,Pneumonia,60.0,6,2,0.76,0.71,4,23.0,0,Stable discharge after treatment for Pneumonia; routine follow-up scheduled.
+P00244,2025-01-15,Male,Medicaid,Rehab,Sepsis,67.0,8,4,0.4,0.68,5,78.0,0,Stable discharge after treatment for Sepsis; routine follow-up scheduled.
+P00245,2025-02-28,Male,Uninsured,Home,Stroke,34.0,5,3,0.32,0.65,2,62.0,0,Stable discharge after treatment for Stroke; routine follow-up scheduled.
+P00246,2025-02-23,Female,Medicare,Nursing Facility,COPD,66.0,4,1,0.83,0.74,3,36.0,0,Stable discharge after treatment for COPD; routine follow-up scheduled.
+P00247,2025-02-01,Male,Private,Home,Pneumonia,67.0,8,0,0.54,0.82,0,64.0,0,Stable discharge after treatment for Pneumonia; routine follow-up scheduled.
+P00248,2025-02-01,Female,Medicare,Nursing Facility,Pneumonia,78.0,4,1,0.34,0.77,1,49.0,0,Stable discharge after treatment for Pneumonia; routine follow-up scheduled.
+P00249,2025-01-24,Male,Uninsured,Home,Renal Failure,77.0,5,3,0.41,0.79,4,44.0,0,Stable discharge after treatment for Renal Failure; routine follow-up scheduled.
+P00250,2025-02-10,Male,Uninsured,Home,Renal Failure,63.0,5,2,0.7,0.64,2,59.0,0,Stable discharge after treatment for Renal Failure; routine follow-up scheduled.
+P00251,2025-02-21,Male,Uninsured,Home,CHF,80.0,6,0,0.59,0.7,5,35.0,0,Stable discharge after treatment for CHF; routine follow-up scheduled.
+P00252,2025-02-18,Female,Medicaid,Home,Stroke,86.0,3,2,0.7,0.64,3,43.0,0,Stable discharge after treatment for Stroke; routine follow-up scheduled.
+P00253,2025-02-18,Female,Private,Home,Renal Failure,62.0,1,3,0.83,0.71,3,52.0,0,Stable discharge after treatment for Renal Failure; routine follow-up scheduled.
+P00254,2025-02-27,Female,Private,Home,CHF,67.0,5,1,0.67,0.83,6,40.0,0,Stable discharge after treatment for CHF; routine follow-up scheduled.
+P00255,2025-02-21,Female,Medicare,Rehab,Sepsis,41.0,7,3,0.88,0.74,0,63.0,0,Stable discharge after treatment for Sepsis; routine follow-up scheduled.
+P00256,2025-01-12,Male,Private,Home,Sepsis,45.0,4,1,0.43,0.86,4,87.0,0,Stable discharge after treatment for Sepsis; routine follow-up scheduled.
+P00257,2025-02-08,Male,Medicare,Home,Renal Failure,52.0,6,4,0.49,0.67,0,35.0,0,Stable discharge after treatment for Renal Failure; routine follow-up scheduled.
+P00258,2025-01-02,Male,Medicaid,Home,Stroke,57.0,5,4,0.79,0.62,5,17.0,0,Stable discharge after treatment for Stroke; routine follow-up scheduled.
+P00259,2025-01-03,Male,Medicare,Rehab,Pneumonia,49.0,6,0,0.56,0.75,1,10.0,0,Stable discharge after treatment for Pneumonia; routine follow-up scheduled.
+P00260,2025-02-18,Male,Medicare,Home,Diabetes,62.0,7,0,0.79,0.71,1,47.0,0,Stable discharge after treatment for Diabetes; routine follow-up scheduled.
+P00261,2025-02-06,Male,Medicare,Home,Stroke,57.0,4,3,0.6,0.73,1,37.0,0,Stable discharge after treatment for Stroke; routine follow-up scheduled.
+P00262,2025-02-18,Male,Private,Home,COPD,75.0,1,1,0.95,0.72,3,54.0,0,Stable discharge after treatment for COPD; routine follow-up scheduled.
+P00263,2025-02-25,Male,Medicare,Home,Sepsis,56.0,3,1,0.73,0.65,4,53.0,0,Stable discharge after treatment for Sepsis; routine follow-up scheduled.
+P00264,2025-01-17,Female,Private,Home,Renal Failure,35.0,7,3,0.79,0.72,0,18.0,0,Stable discharge after treatment for Renal Failure; routine follow-up scheduled.
+P00265,2025-02-28,Female,Medicare,Home,Renal Failure,64.0,4,2,0.76,0.8,0,14.0,0,Stable discharge after treatment for Renal Failure; routine follow-up scheduled.
+P00266,2025-02-18,Female,Medicare,Home,Pneumonia,62.0,3,0,0.79,0.81,5,56.0,0,Stable discharge after treatment for Pneumonia; routine follow-up scheduled.
+P00267,2025-01-02,Male,Medicaid,Rehab,COPD,52.0,6,4,0.72,0.65,1,53.0,0,Stable discharge after treatment for COPD; routine follow-up scheduled.
+P00268,2025-01-02,Male,Private,Home,Pneumonia,63.0,3,1,0.73,0.72,4,41.0,0,Stable discharge after treatment for Pneumonia; routine follow-up scheduled.
+P00269,2025-01-28,Female,Medicare,Home,COPD,49.0,10,3,0.47,0.85,4,17.0,1,Patient exhibits risk factors post-discharge for COPD; close follow-up required.
+P00270,2025-02-23,Male,Private,Home,Diabetes,66.0,7,2,0.55,0.65,5,59.0,0,Stable discharge after treatment for Diabetes; routine follow-up scheduled.
+P00271,2025-01-23,Male,Private,Nursing Facility,Sepsis,94.0,8,2,0.42,0.64,2,75.0,0,Stable discharge after treatment for Sepsis; routine follow-up scheduled.
+P00272,2025-02-06,Female,Private,Home,Renal Failure,40.0,4,1,0.43,0.78,4,56.0,0,Stable discharge after treatment for Renal Failure; routine follow-up scheduled.
+P00273,2025-02-01,Female,Medicare,Rehab,Renal Failure,56.0,1,1,0.9,0.76,4,33.0,0,Stable discharge after treatment for Renal Failure; routine follow-up scheduled.
+P00274,2025-02-02,Male,Medicare,Home,Diabetes,54.0,6,2,0.62,0.62,0,51.0,0,Stable discharge after treatment for Diabetes; routine follow-up scheduled.
+P00275,2025-01-01,Male,Private,Home,CHF,57.0,8,1,0.93,0.56,5,23.0,0,Stable discharge after treatment for CHF; routine follow-up scheduled.
+P00276,2025-01-19,Male,Medicare,Home,Sepsis,74.0,6,1,0.64,0.72,4,71.0,0,Stable discharge after treatment for Sepsis; routine follow-up scheduled.
+P00277,2025-01-02,Male,Private,Nursing Facility,Pneumonia,69.0,11,0,0.41,0.66,4,52.0,0,Stable discharge after treatment for Pneumonia; routine follow-up scheduled.
+P00278,2025-02-22,Male,Medicaid,Home,Diabetes,72.0,5,1,0.53,0.53,0,15.0,0,Stable discharge after treatment for Diabetes; routine follow-up scheduled.
+P00279,2025-02-13,Male,Uninsured,Rehab,Pneumonia,62.0,4,3,0.69,0.63,4,44.0,0,Stable discharge after treatment for Pneumonia; routine follow-up scheduled.
+P00280,2025-01-26,Male,Private,Rehab,Stroke,46.0,9,3,0.38,0.76,0,59.0,0,Stable discharge after treatment for Stroke; routine follow-up scheduled.
+P00281,2025-02-01,Male,Uninsured,Home,Renal Failure,49.0,4,2,0.68,0.68,2,43.0,0,Stable discharge after treatment for Renal Failure; routine follow-up scheduled.
+P00282,2025-01-06,Female,Medicaid,Home,Pneumonia,71.0,2,0,0.55,0.86,3,44.0,0,Stable discharge after treatment for Pneumonia; routine follow-up scheduled.
+P00283,2025-02-01,Female,Private,Home,COPD,64.0,5,2,0.41,0.49,6,26.0,0,Stable discharge after treatment for COPD; routine follow-up scheduled.
+P00284,2025-02-24,Female,Medicaid,Home,Pneumonia,77.0,8,4,0.74,0.83,0,61.0,0,Stable discharge after treatment for Pneumonia; routine follow-up scheduled.
+P00285,2025-01-04,Male,Medicaid,Rehab,Stroke,66.0,6,3,0.42,0.67,0,37.0,0,Stable discharge after treatment for Stroke; routine follow-up scheduled.
+P00286,2025-02-24,Male,Private,Nursing Facility,Sepsis,48.0,7,0,0.7,0.65,4,7.0,0,Stable discharge after treatment for Sepsis; routine follow-up scheduled.
+P00287,2025-01-11,Male,Private,Home,Renal Failure,56.0,9,1,0.6,0.54,0,43.0,1,Patient exhibits risk factors post-discharge for Renal Failure; close follow-up required.
+P00288,2025-02-25,Female,Uninsured,Home,Diabetes,69.0,6,3,0.55,0.75,5,70.0,0,Stable discharge after treatment for Diabetes; routine follow-up scheduled.
+P00289,2025-02-28,Female,Private,Rehab,Stroke,71.0,6,2,0.74,0.52,1,42.0,0,Stable discharge after treatment for Stroke; routine follow-up scheduled.
+P00290,2025-01-17,Female,Medicaid,Home,Renal Failure,72.0,6,1,0.91,0.78,1,85.0,0,Stable discharge after treatment for Renal Failure; routine follow-up scheduled.
+P00291,2025-02-07,Female,Medicaid,Rehab,Pneumonia,49.0,9,3,0.55,0.55,2,59.0,0,Stable discharge after treatment for Pneumonia; routine follow-up scheduled.
+P00292,2025-01-24,Male,Private,Home,Sepsis,48.0,4,2,0.43,0.56,0,57.0,0,Stable discharge after treatment for Sepsis; routine follow-up scheduled.
+P00293,2025-01-05,Female,Medicare,Home,CHF,60.0,6,1,0.72,0.58,5,47.0,0,Stable discharge after treatment for CHF; routine follow-up scheduled.
+P00294,2025-02-21,Female,Medicare,Home,Sepsis,79.0,3,2,0.23,0.63,4,49.0,0,Stable discharge after treatment for Sepsis; routine follow-up scheduled.
+P00295,2025-02-03,Male,Medicaid,Home,CHF,54.0,14,1,0.84,0.79,4,45.0,0,Stable discharge after treatment for CHF; routine follow-up scheduled.
+P00296,2025-01-06,Female,Medicare,Home,COPD,67.0,3,2,0.36,0.85,6,44.0,0,Stable discharge after treatment for COPD; routine follow-up scheduled.
+P00297,2025-01-22,Female,Medicare,Home,Sepsis,67.0,5,0,0.66,0.64,3,61.0,0,Stable discharge after treatment for Sepsis; routine follow-up scheduled.
+P00298,2025-01-11,Male,Medicare,Home,Renal Failure,71.0,5,3,0.83,0.7,2,31.0,1,Patient exhibits risk factors post-discharge for Renal Failure; close follow-up required.
+P00299,2025-02-17,Female,Medicare,Rehab,CHF,82.0,7,3,0.94,0.75,5,28.0,1,Patient exhibits risk factors post-discharge for CHF; close follow-up required.
+P00300,2025-01-16,Male,Medicare,Rehab,Diabetes,81.0,8,1,0.64,0.67,5,28.0,0,Stable discharge after treatment for Diabetes; routine follow-up scheduled.
+P00301,2025-02-02,Male,Uninsured,Home,Renal Failure,55.0,4,2,0.75,0.75,6,91.0,0,Stable discharge after treatment for Renal Failure; routine follow-up scheduled.
+P00302,2025-01-09,Male,Medicaid,Home,Diabetes,37.0,8,2,0.93,0.7,6,61.0,0,Stable discharge after treatment for Diabetes; routine follow-up scheduled.
+P00303,2025-03-01,Female,Medicaid,Home,Sepsis,54.0,10,0,0.62,0.67,4,56.0,0,Stable discharge after treatment for Sepsis; routine follow-up scheduled.
+P00304,2025-02-28,Male,Private,Home,Diabetes,63.0,13,4,0.65,0.56,3,29.0,0,Stable discharge after treatment for Diabetes; routine follow-up scheduled.
+P00305,2025-01-06,Female,Medicare,Home,CHF,58.0,10,1,0.39,0.71,4,62.0,0,Stable discharge after treatment for CHF; routine follow-up scheduled.
+P00306,2025-01-16,Female,Uninsured,Home,Renal Failure,86.0,5,4,0.66,0.8,3,48.0,0,Stable discharge after treatment for Renal Failure; routine follow-up scheduled.
+P00307,2025-01-29,Female,Private,Home,Pneumonia,62.0,5,3,0.74,0.62,1,54.0,0,Stable discharge after treatment for Pneumonia; routine follow-up scheduled.
+P00308,2025-01-03,Male,Medicare,Home,Stroke,70.0,6,4,0.81,0.5,5,30.0,0,Stable discharge after treatment for Stroke; routine follow-up scheduled.
+P00309,2025-01-20,Female,Medicaid,Home,CHF,65.0,6,1,0.71,0.67,6,53.0,0,Stable discharge after treatment for CHF; routine follow-up scheduled.
+P00310,2025-03-01,Female,Private,Home,CHF,58.0,5,1,0.43,0.85,1,42.0,0,Stable discharge after treatment for CHF; routine follow-up scheduled.
+P00311,2025-02-28,Male,Uninsured,Nursing Facility,Pneumonia,39.0,4,2,0.69,0.82,4,35.0,0,Stable discharge after treatment for Pneumonia; routine follow-up scheduled.
+P00312,2025-02-05,Female,Medicaid,Home,Renal Failure,61.0,5,0,0.5,0.64,2,65.0,0,Stable discharge after treatment for Renal Failure; routine follow-up scheduled.
+P00313,2025-01-19,Female,Private,Home,Renal Failure,95.0,5,1,0.39,0.75,0,19.0,0,Stable discharge after treatment for Renal Failure; routine follow-up scheduled.
+P00314,2025-01-26,Female,Medicare,Home,Sepsis,47.0,7,4,0.63,0.76,2,61.0,0,Stable discharge after treatment for Sepsis; routine follow-up scheduled.
+P00315,2025-01-03,Female,Uninsured,Home,Diabetes,40.0,8,1,0.8,0.85,2,64.0,0,Stable discharge after treatment for Diabetes; routine follow-up scheduled.
+P00316,2025-01-19,Female,Medicare,Rehab,Sepsis,85.0,3,1,0.76,0.54,0,32.0,0,Stable discharge after treatment for Sepsis; routine follow-up scheduled.
+P00317,2025-01-20,Female,Uninsured,Home,Pneumonia,71.0,7,5,0.77,0.59,5,34.0,0,Stable discharge after treatment for Pneumonia; routine follow-up scheduled.
+P00318,2025-02-01,Male,Private,Nursing Facility,Sepsis,64.0,4,3,0.26,0.5,1,46.0,0,Stable discharge after treatment for Sepsis; routine follow-up scheduled.
+P00319,2025-01-07,Female,Private,Home,Pneumonia,78.0,10,4,0.65,0.63,1,56.0,0,Stable discharge after treatment for Pneumonia; routine follow-up scheduled.
+P00320,2025-02-21,Female,Medicaid,Home,Renal Failure,52.0,2,4,0.57,0.81,5,47.0,0,Stable discharge after treatment for Renal Failure; routine follow-up scheduled.
+P00321,2025-02-10,Male,Medicare,Rehab,Diabetes,61.0,7,2,0.8,0.64,0,59.0,0,Stable discharge after treatment for Diabetes; routine follow-up scheduled.
+P00322,2025-02-02,Female,Medicare,Home,Sepsis,73.0,8,2,0.67,0.57,3,85.0,0,Stable discharge after treatment for Sepsis; routine follow-up scheduled.
+P00323,2025-02-09,Male,Medicare,Home,CHF,87.0,6,2,0.28,0.72,2,40.0,0,Stable discharge after treatment for CHF; routine follow-up scheduled.
+P00324,2025-02-08,Female,Medicare,Home,COPD,48.0,7,2,0.64,0.73,4,16.0,0,Stable discharge after treatment for COPD; routine follow-up scheduled.
+P00325,2025-01-18,Female,Private,Home,Stroke,77.0,4,3,0.84,0.6,1,67.0,0,Stable discharge after treatment for Stroke; routine follow-up scheduled.
+P00326,2025-02-09,Female,Medicaid,Rehab,CHF,67.0,8,1,0.6,0.65,5,84.0,0,Stable discharge after treatment for CHF; routine follow-up scheduled.
+P00327,2025-01-01,Female,Medicare,Home,Renal Failure,64.0,6,4,0.33,0.72,4,58.0,0,Stable discharge after treatment for Renal Failure; routine follow-up scheduled.
+P00328,2025-01-11,Female,Uninsured,Home,Stroke,62.0,6,2,0.39,0.77,6,28.0,0,Stable discharge after treatment for Stroke; routine follow-up scheduled.
+P00329,2025-01-28,Female,Private,Home,COPD,45.0,4,3,0.6,0.64,0,48.0,0,Stable discharge after treatment for COPD; routine follow-up scheduled.
+P00330,2025-02-26,Female,Uninsured,Home,COPD,74.0,5,2,0.52,0.62,4,28.0,0,Stable discharge after treatment for COPD; routine follow-up scheduled.
+P00331,2025-01-25,Female,Uninsured,Home,Diabetes,53.0,8,2,0.7,0.89,4,63.0,0,Stable discharge after treatment for Diabetes; routine follow-up scheduled.
+P00332,2025-02-19,Female,Medicare,Home,Stroke,49.0,8,1,0.78,0.67,2,23.0,0,Stable discharge after treatment for Stroke; routine follow-up scheduled.
+P00333,2025-01-23,Female,Medicaid,Home,Diabetes,73.0,2,1,0.3,0.72,0,44.0,0,Stable discharge after treatment for Diabetes; routine follow-up scheduled.
+P00334,2025-01-31,Female,Private,Rehab,CHF,71.0,5,1,0.56,0.76,4,30.0,0,Stable discharge after treatment for CHF; routine follow-up scheduled.
+P00335,2025-01-30,Female,Private,Home,Pneumonia,63.0,8,4,0.84,0.52,1,53.0,0,Stable discharge after treatment for Pneumonia; routine follow-up scheduled.
+P00336,2025-02-11,Male,Medicare,Home,Pneumonia,75.0,9,1,0.13,0.7,0,43.0,0,Stable discharge after treatment for Pneumonia; routine follow-up scheduled.
+P00337,2025-02-04,Female,Private,Rehab,Pneumonia,79.0,6,2,0.77,0.54,1,54.0,0,Stable discharge after treatment for Pneumonia; routine follow-up scheduled.
+P00338,2025-01-07,Male,Medicare,Home,Stroke,78.0,9,1,0.56,0.69,5,50.0,0,Stable discharge after treatment for Stroke; routine follow-up scheduled.
+P00339,2025-03-01,Male,Medicare,Home,Pneumonia,56.0,5,2,0.83,0.84,5,30.0,0,Stable discharge after treatment for Pneumonia; routine follow-up scheduled.
+P00340,2025-01-16,Female,Medicaid,Home,CHF,74.0,3,3,0.52,0.6,6,63.0,0,Stable discharge after treatment for CHF; routine follow-up scheduled.
+P00341,2025-01-26,Male,Medicaid,Home,Diabetes,65.0,3,2,0.76,0.53,3,49.0,0,Stable discharge after treatment for Diabetes; routine follow-up scheduled.
+P00342,2025-02-17,Male,Medicaid,Home,Stroke,83.0,8,2,0.89,0.89,5,30.0,0,Stable discharge after treatment for Stroke; routine follow-up scheduled.
+P00343,2025-02-26,Female,Medicare,Nursing Facility,Diabetes,61.0,3,0,0.64,0.59,4,95.0,0,Stable discharge after treatment for Diabetes; routine follow-up scheduled.
+P00344,2025-02-21,Female,Private,Home,Stroke,58.0,4,0,0.74,0.55,0,60.0,0,Stable discharge after treatment for Stroke; routine follow-up scheduled.
+P00345,2025-03-01,Male,Medicare,Home,Diabetes,55.0,7,0,0.66,0.86,5,47.0,0,Stable discharge after treatment for Diabetes; routine follow-up scheduled.
+P00346,2025-02-18,Male,Medicare,Rehab,COPD,64.0,4,3,0.73,0.58,1,78.0,0,Stable discharge after treatment for COPD; routine follow-up scheduled.
+P00347,2025-01-02,Female,Private,Home,Diabetes,68.0,9,3,0.69,0.86,4,87.0,0,Stable discharge after treatment for Diabetes; routine follow-up scheduled.
+P00348,2025-01-01,Female,Uninsured,Home,Pneumonia,68.0,4,2,0.58,0.73,5,47.0,0,Stable discharge after treatment for Pneumonia; routine follow-up scheduled.
+P00349,2025-02-17,Female,Private,Home,COPD,66.0,3,0,0.62,0.83,2,57.0,0,Stable discharge after treatment for COPD; routine follow-up scheduled.
+P00350,2025-01-12,Female,Private,Nursing Facility,Diabetes,70.0,6,3,0.61,0.72,1,30.0,0,Stable discharge after treatment for Diabetes; routine follow-up scheduled.
+P00351,2025-01-05,Male,Private,Home,Stroke,59.0,5,1,0.93,0.81,6,47.0,0,Stable discharge after treatment for Stroke; routine follow-up scheduled.
+P00352,2025-02-06,Female,Medicaid,Home,Stroke,52.0,5,1,0.84,0.61,6,46.0,0,Stable discharge after treatment for Stroke; routine follow-up scheduled.
+P00353,2025-02-01,Female,Medicare,Home,Stroke,50.0,5,2,0.76,0.64,6,54.0,0,Stable discharge after treatment for Stroke; routine follow-up scheduled.
+P00354,2025-02-28,Male,Medicaid,Home,Renal Failure,74.0,9,3,0.69,0.49,1,57.0,0,Stable discharge after treatment for Renal Failure; routine follow-up scheduled.
+P00355,2025-02-24,Female,Medicaid,Home,CHF,68.0,6,2,0.87,0.8,6,61.0,0,Stable discharge after treatment for CHF; routine follow-up scheduled.
+P00356,2025-01-09,Female,Medicare,Home,Stroke,40.0,8,2,0.45,0.74,3,55.0,0,Stable discharge after treatment for Stroke; routine follow-up scheduled.
+P00357,2025-02-10,Male,Private,Rehab,COPD,75.0,5,3,0.89,0.6,2,26.0,0,Stable discharge after treatment for COPD; routine follow-up scheduled.
+P00358,2025-02-04,Male,Medicaid,Home,Stroke,85.0,8,6,0.6,0.53,3,31.0,1,Patient exhibits risk factors post-discharge for Stroke; close follow-up required.
+P00359,2025-01-19,Female,Medicare,Home,Renal Failure,53.0,11,2,0.77,0.73,5,39.0,0,Stable discharge after treatment for Renal Failure; routine follow-up scheduled.
+P00360,2025-02-17,Male,Medicare,Rehab,Pneumonia,66.0,2,0,0.6,0.87,2,44.0,0,Stable discharge after treatment for Pneumonia; routine follow-up scheduled.
+P00361,2025-01-16,Female,Private,Nursing Facility,COPD,56.0,3,3,0.43,0.69,1,71.0,0,Stable discharge after treatment for COPD; routine follow-up scheduled.
+P00362,2025-01-03,Female,Medicare,Home,Renal Failure,70.0,8,0,0.78,0.63,3,27.0,0,Stable discharge after treatment for Renal Failure; routine follow-up scheduled.
+P00363,2025-01-20,Male,Private,Home,Pneumonia,48.0,3,1,0.98,0.61,4,43.0,0,Stable discharge after treatment for Pneumonia; routine follow-up scheduled.
+P00364,2025-01-24,Female,Medicaid,Home,Sepsis,61.0,3,0,0.68,0.82,2,69.0,0,Stable discharge after treatment for Sepsis; routine follow-up scheduled.
+P00365,2025-02-23,Female,Medicaid,Nursing Facility,Sepsis,74.0,4,5,0.93,0.62,1,44.0,1,Patient exhibits risk factors post-discharge for Sepsis; close follow-up required.
+P00366,2025-02-25,Female,Medicaid,Nursing Facility,COPD,77.0,7,0,0.7,0.66,0,59.0,0,Stable discharge after treatment for COPD; routine follow-up scheduled.
+P00367,2025-02-02,Female,Private,Home,Diabetes,67.0,1,7,0.91,0.8,2,47.0,0,Stable discharge after treatment for Diabetes; routine follow-up scheduled.
+P00368,2025-01-24,Female,Medicare,Rehab,CHF,58.0,6,2,0.77,0.76,2,55.0,0,Stable discharge after treatment for CHF; routine follow-up scheduled.
+P00369,2025-02-21,Female,Private,Home,CHF,43.0,10,4,0.79,0.67,5,45.0,0,Stable discharge after treatment for CHF; routine follow-up scheduled.
+P00370,2025-01-11,Female,Medicaid,Home,Renal Failure,53.0,6,4,0.62,0.63,4,63.0,0,Stable discharge after treatment for Renal Failure; routine follow-up scheduled.
+P00371,2025-02-18,Female,Medicare,Home,Pneumonia,56.0,9,1,0.33,0.85,5,19.0,0,Stable discharge after treatment for Pneumonia; routine follow-up scheduled.
+P00372,2025-01-08,Male,Private,Rehab,CHF,54.0,5,2,0.52,0.59,6,43.0,0,Stable discharge after treatment for CHF; routine follow-up scheduled.
+P00373,2025-02-05,Male,Private,Home,Pneumonia,63.0,10,1,0.75,0.68,2,56.0,0,Stable discharge after treatment for Pneumonia; routine follow-up scheduled.
+P00374,2025-02-07,Male,Private,Rehab,Pneumonia,58.0,8,2,0.56,0.55,2,61.0,0,Stable discharge after treatment for Pneumonia; routine follow-up scheduled.
+P00375,2025-02-09,Male,Private,Rehab,Renal Failure,64.0,2,0,0.6,0.82,6,80.0,0,Stable discharge after treatment for Renal Failure; routine follow-up scheduled.
+P00376,2025-01-20,Female,Private,Rehab,Renal Failure,76.0,3,3,0.96,0.65,4,42.0,0,Stable discharge after treatment for Renal Failure; routine follow-up scheduled.
+P00377,2025-02-04,Female,Private,Home,Renal Failure,57.0,3,2,0.79,0.63,4,80.0,0,Stable discharge after treatment for Renal Failure; routine follow-up scheduled.
+P00378,2025-02-17,Male,Private,Home,CHF,45.0,4,2,0.72,0.77,3,37.0,0,Stable discharge after treatment for CHF; routine follow-up scheduled.
+P00379,2025-01-25,Male,Private,Home,Sepsis,54.0,3,3,0.65,0.56,1,77.0,0,Stable discharge after treatment for Sepsis; routine follow-up scheduled.
+P00380,2025-02-04,Male,Private,Home,Renal Failure,69.0,6,0,0.69,0.76,1,66.0,0,Stable discharge after treatment for Renal Failure; routine follow-up scheduled.
+P00381,2025-01-25,Female,Private,Home,CHF,70.0,4,2,0.34,0.66,3,32.0,0,Stable discharge after treatment for CHF; routine follow-up scheduled.
+P00382,2025-01-29,Female,Private,Nursing Facility,Renal Failure,67.0,8,0,0.87,0.58,1,56.0,0,Stable discharge after treatment for Renal Failure; routine follow-up scheduled.
+P00383,2025-01-18,Female,Medicare,Home,Stroke,78.0,6,0,0.67,0.6,2,49.0,0,Stable discharge after treatment for Stroke; routine follow-up scheduled.
+P00384,2025-02-15,Female,Private,Home,Pneumonia,60.0,6,4,0.48,0.63,3,63.0,0,Stable discharge after treatment for Pneumonia; routine follow-up scheduled.
+P00385,2025-01-18,Male,Private,Home,Renal Failure,87.0,3,1,0.52,0.66,3,46.0,0,Stable discharge after treatment for Renal Failure; routine follow-up scheduled.
+P00386,2025-01-02,Male,Medicare,Home,COPD,72.0,5,2,0.6,0.58,1,44.0,0,Stable discharge after treatment for COPD; routine follow-up scheduled.
+P00387,2025-02-23,Female,Private,Home,Pneumonia,32.0,7,0,0.94,0.73,0,77.0,0,Stable discharge after treatment for Pneumonia; routine follow-up scheduled.
+P00388,2025-02-04,Male,Medicare,Home,Pneumonia,84.0,3,0,0.68,0.58,1,48.0,0,Stable discharge after treatment for Pneumonia; routine follow-up scheduled.
+P00389,2025-01-16,Male,Medicare,Nursing Facility,Renal Failure,53.0,9,4,0.85,0.46,5,67.0,0,Stable discharge after treatment for Renal Failure; routine follow-up scheduled.
+P00390,2025-02-10,Female,Private,Home,Sepsis,50.0,3,0,0.74,0.89,0,45.0,0,Stable discharge after treatment for Sepsis; routine follow-up scheduled.
+P00391,2025-02-05,Female,Medicare,Nursing Facility,Diabetes,68.0,6,2,0.65,0.72,3,83.0,0,Stable discharge after treatment for Diabetes; routine follow-up scheduled.
+P00392,2025-02-02,Female,Private,Rehab,Sepsis,41.0,2,1,0.84,0.9,0,36.0,0,Stable discharge after treatment for Sepsis; routine follow-up scheduled.
+P00393,2025-01-04,Female,Private,Home,Renal Failure,54.0,8,2,0.71,0.6,2,38.0,0,Stable discharge after treatment for Renal Failure; routine follow-up scheduled.
+P00394,2025-02-02,Female,Medicaid,Nursing Facility,Pneumonia,81.0,2,2,0.82,0.75,4,80.0,0,Stable discharge after treatment for Pneumonia; routine follow-up scheduled.
+P00395,2025-01-14,Female,Medicare,Home,COPD,69.0,7,2,0.41,0.79,0,41.0,0,Stable discharge after treatment for COPD; routine follow-up scheduled.
+P00396,2025-01-21,Female,Medicare,Rehab,Pneumonia,72.0,8,2,0.63,0.68,5,82.0,1,Patient exhibits risk factors post-discharge for Pneumonia; close follow-up required.
+P00397,2025-02-17,Female,Private,Home,Sepsis,54.0,5,2,0.31,0.56,4,68.0,0,Stable discharge after treatment for Sepsis; routine follow-up scheduled.
+P00398,2025-01-20,Male,Uninsured,Rehab,COPD,44.0,1,1,0.59,0.67,2,47.0,0,Stable discharge after treatment for COPD; routine follow-up scheduled.
+P00399,2025-02-25,Female,Private,Rehab,CHF,70.0,7,1,0.82,0.76,5,14.0,0,Stable discharge after treatment for CHF; routine follow-up scheduled.
+P00400,2025-01-08,Male,Medicare,Rehab,Stroke,73.0,5,1,0.56,0.76,6,50.0,0,Stable discharge after treatment for Stroke; routine follow-up scheduled.
+P00401,2025-01-07,Female,Private,Rehab,Pneumonia,73.0,5,5,0.85,0.7,4,52.0,0,Stable discharge after treatment for Pneumonia; routine follow-up scheduled.
+P00402,2025-01-03,Male,Medicaid,Home,Renal Failure,65.0,5,3,0.69,0.79,6,73.0,0,Stable discharge after treatment for Renal Failure; routine follow-up scheduled.
+P00403,2025-01-17,Female,Private,Home,CHF,50.0,6,2,0.78,0.79,2,82.0,0,Stable discharge after treatment for CHF; routine follow-up scheduled.
+P00404,2025-02-02,Female,Medicare,Home,Stroke,91.0,7,1,0.18,0.65,4,36.0,0,Stable discharge after treatment for Stroke; routine follow-up scheduled.
+P00405,2025-02-17,Male,Private,Home,Renal Failure,68.0,7,3,0.72,0.55,4,66.0,0,Stable discharge after treatment for Renal Failure; routine follow-up scheduled.
+P00406,2025-01-12,Male,Medicaid,Home,Diabetes,60.0,7,0,0.43,0.72,1,65.0,0,Stable discharge after treatment for Diabetes; routine follow-up scheduled.
+P00407,2025-02-28,Male,Uninsured,Home,Renal Failure,60.0,9,2,0.89,0.63,5,71.0,0,Stable discharge after treatment for Renal Failure; routine follow-up scheduled.
+P00408,2025-02-20,Female,Medicare,Nursing Facility,COPD,64.0,6,1,0.59,0.71,5,60.0,0,Stable discharge after treatment for COPD; routine follow-up scheduled.
+P00409,2025-01-22,Female,Private,Home,COPD,75.0,3,3,0.8,0.83,0,11.0,0,Stable discharge after treatment for COPD; routine follow-up scheduled.
+P00410,2025-02-24,Male,Uninsured,Rehab,Diabetes,64.0,9,1,0.7,0.74,6,47.0,1,Patient exhibits risk factors post-discharge for Diabetes; close follow-up required.
+P00411,2025-01-22,Male,Medicare,Home,CHF,72.0,8,0,0.44,0.83,6,27.0,0,Stable discharge after treatment for CHF; routine follow-up scheduled.
+P00412,2025-02-15,Male,Uninsured,Rehab,Stroke,64.0,9,2,0.59,0.6,5,46.0,1,Patient exhibits risk factors post-discharge for Stroke; close follow-up required.
+P00413,2025-01-30,Male,Private,Nursing Facility,Renal Failure,61.0,3,3,0.33,0.81,5,70.0,0,Stable discharge after treatment for Renal Failure; routine follow-up scheduled.
+P00414,2025-02-07,Female,Medicare,Home,COPD,70.0,9,1,0.55,0.87,4,56.0,0,Stable discharge after treatment for COPD; routine follow-up scheduled.
+P00415,2025-02-07,Male,Medicare,Home,CHF,69.0,7,2,0.65,0.71,6,73.0,0,Stable discharge after treatment for CHF; routine follow-up scheduled.
+P00416,2025-02-14,Female,Private,Rehab,Diabetes,60.0,11,1,0.9,0.93,3,57.0,0,Stable discharge after treatment for Diabetes; routine follow-up scheduled.
+P00417,2025-02-20,Female,Medicare,Home,Sepsis,53.0,5,3,0.7,0.61,1,24.0,0,Stable discharge after treatment for Sepsis; routine follow-up scheduled.
+P00418,2025-02-23,Female,Medicaid,Home,Pneumonia,66.0,12,2,0.55,0.64,0,5.0,1,Patient exhibits risk factors post-discharge for Pneumonia; close follow-up required.
+P00419,2025-01-08,Female,Medicare,Home,Sepsis,63.0,6,1,0.67,0.76,1,53.0,0,Stable discharge after treatment for Sepsis; routine follow-up scheduled.
+P00420,2025-01-27,Female,Private,Home,Sepsis,55.0,5,4,0.58,0.71,0,46.0,0,Stable discharge after treatment for Sepsis; routine follow-up scheduled.
+P00421,2025-01-27,Female,Medicare,Home,COPD,52.0,5,0,0.53,0.63,2,30.0,0,Stable discharge after treatment for COPD; routine follow-up scheduled.
+P00422,2025-02-03,Male,Private,Home,Diabetes,67.0,4,7,0.63,0.76,4,16.0,0,Stable discharge after treatment for Diabetes; routine follow-up scheduled.
+P00423,2025-01-21,Female,Uninsured,Home,Renal Failure,69.0,4,2,0.61,0.74,5,35.0,0,Stable discharge after treatment for Renal Failure; routine follow-up scheduled.
+P00424,2025-01-30,Male,Uninsured,Home,Sepsis,58.0,4,4,0.81,0.64,5,46.0,0,Stable discharge after treatment for Sepsis; routine follow-up scheduled.
+P00425,2025-02-02,Female,Private,Nursing Facility,Sepsis,55.0,9,3,0.67,0.72,3,63.0,0,Stable discharge after treatment for Sepsis; routine follow-up scheduled.
+P00426,2025-01-28,Female,Medicare,Home,Stroke,52.0,1,3,0.23,0.78,6,54.0,0,Stable discharge after treatment for Stroke; routine follow-up scheduled.
+P00427,2025-02-16,Male,Private,Nursing Facility,COPD,67.0,7,6,0.64,0.64,6,82.0,0,Stable discharge after treatment for COPD; routine follow-up scheduled.
+P00428,2025-02-02,Female,Medicare,Home,COPD,52.0,6,1,0.65,0.75,1,29.0,0,Stable discharge after treatment for COPD; routine follow-up scheduled.
+P00429,2025-01-05,Female,Medicare,Home,Renal Failure,89.0,6,0,0.5,0.61,1,68.0,0,Stable discharge after treatment for Renal Failure; routine follow-up scheduled.
+P00430,2025-03-01,Female,Medicare,Home,Pneumonia,57.0,7,3,0.75,0.63,1,51.0,0,Stable discharge after treatment for Pneumonia; routine follow-up scheduled.
+P00431,2025-02-17,Female,Medicaid,Home,CHF,33.0,3,1,0.5,0.81,6,64.0,0,Stable discharge after treatment for CHF; routine follow-up scheduled.
+P00432,2025-01-19,Male,Private,Home,Stroke,62.0,3,0,0.86,0.76,5,41.0,0,Stable discharge after treatment for Stroke; routine follow-up scheduled.
+P00433,2025-01-04,Female,Private,Home,COPD,61.0,4,0,0.62,0.51,6,71.0,0,Stable discharge after treatment for COPD; routine follow-up scheduled.
+P00434,2025-02-04,Male,Medicaid,Home,Stroke,75.0,3,1,0.96,0.66,1,56.0,0,Stable discharge after treatment for Stroke; routine follow-up scheduled.
+P00435,2025-02-18,Female,Medicare,Home,COPD,65.0,5,3,0.97,0.75,4,36.0,0,Stable discharge after treatment for COPD; routine follow-up scheduled.
+P00436,2025-01-17,Male,Uninsured,Home,Stroke,52.0,6,5,0.83,0.71,0,50.0,0,Stable discharge after treatment for Stroke; routine follow-up scheduled.
+P00437,2025-02-13,Male,Medicaid,Home,Diabetes,59.0,7,1,0.58,0.76,5,45.0,0,Stable discharge after treatment for Diabetes; routine follow-up scheduled.
+P00438,2025-01-28,Male,Medicaid,Home,Sepsis,66.0,2,4,0.43,0.71,4,60.0,0,Stable discharge after treatment for Sepsis; routine follow-up scheduled.
+P00439,2025-01-30,Female,Medicare,Rehab,COPD,36.0,6,3,0.59,0.69,2,26.0,0,Stable discharge after treatment for COPD; routine follow-up scheduled.
+P00440,2025-01-29,Female,Private,Home,Stroke,78.0,6,2,0.83,0.68,4,49.0,0,Stable discharge after treatment for Stroke; routine follow-up scheduled.
+P00441,2025-02-15,Female,Private,Home,CHF,52.0,3,2,0.72,0.81,4,58.0,0,Stable discharge after treatment for CHF; routine follow-up scheduled.
+P00442,2025-02-22,Male,Medicare,Nursing Facility,Diabetes,79.0,5,1,0.59,0.77,2,51.0,0,Stable discharge after treatment for Diabetes; routine follow-up scheduled.
+P00443,2025-01-06,Male,Medicare,Home,Diabetes,67.0,7,3,0.71,0.74,4,77.0,0,Stable discharge after treatment for Diabetes; routine follow-up scheduled.
+P00444,2025-02-04,Male,Private,Home,CHF,70.0,4,3,0.53,0.71,0,65.0,0,Stable discharge after treatment for CHF; routine follow-up scheduled.
+P00445,2025-03-01,Female,Private,Nursing Facility,Stroke,76.0,5,6,0.58,0.65,5,50.0,1,Patient exhibits risk factors post-discharge for Stroke; close follow-up required.
+P00446,2025-02-10,Male,Medicare,Home,Renal Failure,69.0,2,2,0.62,0.67,3,54.0,0,Stable discharge after treatment for Renal Failure; routine follow-up scheduled.
+P00447,2025-02-06,Male,Uninsured,Home,CHF,70.0,5,2,0.86,0.81,6,56.0,0,Stable discharge after treatment for CHF; routine follow-up scheduled.
+P00448,2025-01-24,Female,Medicare,Home,Stroke,60.0,7,2,0.8,0.8,2,58.0,0,Stable discharge after treatment for Stroke; routine follow-up scheduled.
+P00449,2025-01-29,Female,Medicaid,Home,CHF,66.0,5,2,0.85,0.64,5,13.0,0,Stable discharge after treatment for CHF; routine follow-up scheduled.
+P00450,2025-02-18,Male,Uninsured,Home,CHF,55.0,6,3,0.84,0.71,1,44.0,0,Stable discharge after treatment for CHF; routine follow-up scheduled.
+P00451,2025-02-15,Male,Medicaid,Home,COPD,58.0,8,3,0.84,0.75,0,20.0,0,Stable discharge after treatment for COPD; routine follow-up scheduled.
+P00452,2025-02-22,Male,Private,Home,Stroke,86.0,4,2,0.76,0.74,3,76.0,0,Stable discharge after treatment for Stroke; routine follow-up scheduled.
+P00453,2025-01-31,Female,Medicaid,Home,Renal Failure,52.0,7,3,0.94,0.74,0,49.0,0,Stable discharge after treatment for Renal Failure; routine follow-up scheduled.
+P00454,2025-02-04,Male,Medicare,Nursing Facility,Sepsis,64.0,6,2,0.73,0.59,0,46.0,0,Stable discharge after treatment for Sepsis; routine follow-up scheduled.
+P00455,2025-03-01,Female,Uninsured,Rehab,COPD,63.0,4,1,0.51,0.58,1,68.0,0,Stable discharge after treatment for COPD; routine follow-up scheduled.
+P00456,2025-02-02,Female,Medicaid,Home,CHF,58.0,3,1,0.79,0.82,3,58.0,0,Stable discharge after treatment for CHF; routine follow-up scheduled.
+P00457,2025-02-21,Female,Private,Home,Sepsis,68.0,8,2,0.33,0.85,6,27.0,0,Stable discharge after treatment for Sepsis; routine follow-up scheduled.
+P00458,2025-01-21,Male,Medicare,Home,Pneumonia,69.0,5,1,0.74,0.55,0,49.0,0,Stable discharge after treatment for Pneumonia; routine follow-up scheduled.
+P00459,2025-02-01,Male,Medicare,Home,Sepsis,51.0,10,3,0.77,0.7,1,43.0,0,Stable discharge after treatment for Sepsis; routine follow-up scheduled.
+P00460,2025-01-23,Male,Medicare,Home,CHF,63.0,6,3,0.72,0.78,2,15.0,0,Stable discharge after treatment for CHF; routine follow-up scheduled.
+P00461,2025-02-02,Female,Private,Home,CHF,49.0,4,1,0.62,0.48,1,36.0,0,Stable discharge after treatment for CHF; routine follow-up scheduled.
+P00462,2025-01-03,Male,Medicaid,Rehab,Stroke,71.0,8,4,0.73,0.59,4,46.0,0,Stable discharge after treatment for Stroke; routine follow-up scheduled.
+P00463,2025-01-18,Female,Private,Home,Stroke,64.0,3,4,0.79,0.69,5,48.0,0,Stable discharge after treatment for Stroke; routine follow-up scheduled.
+P00464,2025-01-25,Male,Medicaid,Home,COPD,63.0,7,2,0.93,0.64,1,20.0,0,Stable discharge after treatment for COPD; routine follow-up scheduled.
+P00465,2025-02-11,Female,Uninsured,Home,Renal Failure,70.0,5,2,0.55,0.72,1,73.0,0,Stable discharge after treatment for Renal Failure; routine follow-up scheduled.
+P00466,2025-01-31,Female,Medicare,Home,COPD,59.0,7,5,0.51,0.85,1,48.0,0,Stable discharge after treatment for COPD; routine follow-up scheduled.
+P00467,2025-02-23,Female,Private,Rehab,Diabetes,73.0,5,2,0.64,0.61,6,51.0,0,Stable discharge after treatment for Diabetes; routine follow-up scheduled.
+P00468,2025-02-27,Female,Private,Rehab,CHF,51.0,3,5,0.6,0.71,0,58.0,0,Stable discharge after treatment for CHF; routine follow-up scheduled.
+P00469,2025-01-03,Male,Private,Rehab,Sepsis,79.0,5,3,0.47,0.67,6,34.0,0,Stable discharge after treatment for Sepsis; routine follow-up scheduled.
+P00470,2025-02-09,Female,Private,Home,Pneumonia,55.0,6,3,0.94,0.71,3,59.0,0,Stable discharge after treatment for Pneumonia; routine follow-up scheduled.
+P00471,2025-02-15,Female,Private,Home,CHF,42.0,8,1,0.7,0.7,1,43.0,0,Stable discharge after treatment for CHF; routine follow-up scheduled.
+P00472,2025-01-24,Male,Private,Home,CHF,58.0,1,3,0.67,0.95,1,32.0,0,Stable discharge after treatment for CHF; routine follow-up scheduled.
+P00473,2025-02-19,Female,Medicare,Home,COPD,57.0,9,0,0.41,0.85,4,61.0,0,Stable discharge after treatment for COPD; routine follow-up scheduled.
+P00474,2025-02-01,Male,Medicare,Home,Pneumonia,58.0,6,3,0.67,0.54,4,80.0,0,Stable discharge after treatment for Pneumonia; routine follow-up scheduled.
+P00475,2025-02-16,Male,Uninsured,Rehab,Pneumonia,65.0,4,1,0.55,0.61,2,64.0,0,Stable discharge after treatment for Pneumonia; routine follow-up scheduled.
+P00476,2025-01-22,Male,Private,Home,Pneumonia,75.0,9,0,0.4,0.62,2,68.0,0,Stable discharge after treatment for Pneumonia; routine follow-up scheduled.
+P00477,2025-01-23,Female,Private,Home,COPD,60.0,1,1,0.65,0.58,4,40.0,0,Stable discharge after treatment for COPD; routine follow-up scheduled.
+P00478,2025-01-02,Male,Medicaid,Home,CHF,54.0,5,5,0.68,0.56,3,18.0,0,Stable discharge after treatment for CHF; routine follow-up scheduled.
+P00479,2025-01-27,Male,Medicare,Home,COPD,48.0,5,0,0.82,0.68,2,80.0,0,Stable discharge after treatment for COPD; routine follow-up scheduled.
+P00480,2025-02-11,Female,Medicare,Home,Stroke,56.0,6,3,0.5,0.63,5,91.0,0,Stable discharge after treatment for Stroke; routine follow-up scheduled.
+P00481,2025-01-02,Female,Private,Nursing Facility,Stroke,39.0,6,1,0.59,0.61,5,81.0,0,Stable discharge after treatment for Stroke; routine follow-up scheduled.
+P00482,2025-01-26,Male,Medicaid,Rehab,COPD,53.0,7,2,0.9,0.9,3,43.0,0,Stable discharge after treatment for COPD; routine follow-up scheduled.
+P00483,2025-01-17,Male,Medicare,Nursing Facility,Pneumonia,77.0,9,3,0.95,0.63,4,27.0,0,Stable discharge after treatment for Pneumonia; routine follow-up scheduled.
+P00484,2025-02-09,Male,Medicaid,Home,CHF,52.0,7,4,0.62,0.66,2,29.0,0,Stable discharge after treatment for CHF; routine follow-up scheduled.
+P00485,2025-02-02,Male,Medicare,Home,COPD,70.0,5,0,0.93,0.77,1,16.0,0,Stable discharge after treatment for COPD; routine follow-up scheduled.
+P00486,2025-01-09,Male,Medicaid,Home,COPD,47.0,5,1,0.84,0.66,4,48.0,0,Stable discharge after treatment for COPD; routine follow-up scheduled.
+P00487,2025-02-12,Female,Medicare,Home,COPD,83.0,5,4,0.73,0.58,2,82.0,0,Stable discharge after treatment for COPD; routine follow-up scheduled.
+P00488,2025-02-23,Female,Private,Rehab,Diabetes,84.0,10,1,0.24,0.67,3,47.0,0,Stable discharge after treatment for Diabetes; routine follow-up scheduled.
+P00489,2025-02-17,Female,Medicare,Home,Stroke,69.0,4,4,0.41,0.9,5,56.0,1,Patient exhibits risk factors post-discharge for Stroke; close follow-up required.
+P00490,2025-02-08,Male,Medicaid,Home,Sepsis,86.0,4,5,0.59,0.65,3,78.0,0,Stable discharge after treatment for Sepsis; routine follow-up scheduled.
+P00491,2025-01-29,Female,Medicare,Home,Pneumonia,66.0,4,1,0.63,0.61,2,42.0,0,Stable discharge after treatment for Pneumonia; routine follow-up scheduled.
+P00492,2025-02-11,Male,Medicare,Home,Renal Failure,71.0,6,2,0.92,0.74,3,91.0,0,Stable discharge after treatment for Renal Failure; routine follow-up scheduled.
+P00493,2025-02-24,Male,Medicaid,Rehab,Sepsis,77.0,7,3,0.42,0.67,2,90.0,0,Stable discharge after treatment for Sepsis; routine follow-up scheduled.
+P00494,2025-01-26,Male,Medicaid,Home,Pneumonia,64.0,7,1,0.86,0.95,2,47.0,0,Stable discharge after treatment for Pneumonia; routine follow-up scheduled.
+P00495,2025-02-04,Female,Private,Home,Renal Failure,43.0,5,3,0.59,0.62,3,38.0,0,Stable discharge after treatment for Renal Failure; routine follow-up scheduled.
+P00496,2025-02-19,Male,Medicare,Home,Diabetes,71.0,7,2,0.81,0.87,0,64.0,0,Stable discharge after treatment for Diabetes; routine follow-up scheduled.
+P00497,2025-01-25,Female,Private,Home,COPD,56.0,6,3,0.35,0.82,1,43.0,0,Stable discharge after treatment for COPD; routine follow-up scheduled.
+P00498,2025-01-24,Male,Private,Rehab,Diabetes,57.0,5,1,0.47,0.66,4,27.0,0,Stable discharge after treatment for Diabetes; routine follow-up scheduled.
+P00499,2025-01-13,Female,Private,Rehab,Diabetes,66.0,5,0,0.65,0.7,5,76.0,0,Stable discharge after treatment for Diabetes; routine follow-up scheduled.
+P00500,2025-03-01,Female,Medicare,Nursing Facility,Sepsis,69.0,4,3,0.56,0.6,1,74.0,0,Stable discharge after treatment for Sepsis; routine follow-up scheduled.

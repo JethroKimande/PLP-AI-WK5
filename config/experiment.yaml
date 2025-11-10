@@ -1,0 +1,70 @@
+experiment_name: hospital_readmission_risk
+random_seed: 42
+
+data:
+  raw_path: data/synthetic_patients.csv
+  target_column: readmitted
+  id_column: patient_id
+  datetime_column: discharge_date
+  categorical_features:
+    - gender
+    - insurance_type
+    - discharge_disposition
+    - primary_diagnosis
+  numeric_features:
+    - age
+    - length_of_stay
+    - prior_admissions
+    - medication_possession_ratio
+    - avg_vitals_score
+    - comorbidity_index
+    - socio_economic_score
+  text_features:
+    - discharge_summary
+
+splits:
+  train_ratio: 0.7
+  validation_ratio: 0.15
+  test_ratio: 0.15
+  stratify: true
+  temporal_split: true
+
+preprocessing:
+  imputation_strategy: median
+  impute_categorical: most_frequent
+  scale_numeric: true
+  encode_categorical: one_hot
+  text_embedding: tfidf
+  oversample_minority: false
+  oversample_method: smote
+
+model:
+  type: lightgbm_classifier
+  params:
+    num_leaves: 31
+    learning_rate: 0.05
+    n_estimators: 300
+    max_depth: -1
+    min_child_samples: 40
+    subsample: 0.8
+    colsample_bytree: 0.8
+    reg_alpha: 0.1
+    reg_lambda: 0.1
+
+evaluation:
+  threshold: 0.5
+  metrics:
+    - roc_auc
+    - average_precision
+    - recall
+    - f1
+  confusion_matrix: true
+
+monitoring:
+  drift_detection:
+    feature_psI_threshold: 0.2
+    frequency: monthly
+  retraining:
+    trigger_metric: roc_auc
+    drop_threshold: 0.02
+
